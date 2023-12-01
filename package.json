@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "typecheck": "tsc --noEmit",
     "start": "ts-node src/main.ts",
     "lint": "eslint .",
@@ -27,6 +27,7 @@
     "prettier": "^3.1.0",
     "regenerator-runtime": "^0.14.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
   }
 }
