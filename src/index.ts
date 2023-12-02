@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 import {Transformer, unified} from 'unified';
-import remark from 'remark'
+//import remark from 'remark'
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";

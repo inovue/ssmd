@@ -7,7 +7,7 @@
   "scripts": {
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "start": "ts-node src/main.ts",
+    "start": "tsimp src/main.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -39,5 +39,8 @@
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
     "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "tsimp": "^2.0.9"
   }
 }
