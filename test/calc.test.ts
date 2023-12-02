@@ -1,4 +1,4 @@
-import { add } from "../src/calc";
+import { add } from "src/calc.js";
 import { describe, it, expect } from "vitest";
  
 describe("add", () => {
