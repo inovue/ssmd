@@ -23,6 +23,12 @@
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "tsimp": "^2.0.9",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
     "rehype": "^13.0.1",
     "rehype-stringify": "^10.0.0",
     "remark": "^15.0.1",
@@ -30,13 +36,7 @@
     "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.0.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.3.2",
     "unified": "^11.0.4",
-    "unist-util-visit": "^5.0.0",
-    "vitest": "^0.34.6"
-  },
-  "dependencies": {
-    "tsimp": "^2.0.9"
+    "unist-util-visit": "^5.0.0"
   }
 }

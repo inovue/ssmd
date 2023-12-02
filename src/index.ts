@@ -40,7 +40,7 @@ const __dirname = path.dirname(__filename);
     };
   };
 
-  let mdString = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
+  const mdString = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
   // console.log(mdString);
 
   const mdast = unified()
