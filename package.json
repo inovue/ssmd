@@ -29,14 +29,17 @@
     "vitest": "^0.34.6"
   },
   "dependencies": {
+    "hast-util-to-xast": "^3.0.0",
     "rehype": "^13.0.1",
+    "rehype-raw": "^7.0.0",
     "rehype-stringify": "^10.0.0",
     "remark": "^15.0.1",
-    "remark-comment": "^1.0.0",
     "remark-gfm": "^4.0.0",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.0.0",
     "unified": "^11.0.4",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-remove": "^4.0.0",
+    "unist-util-visit": "^5.0.0",
+    "xast-util-to-xml": "^4.0.0"
   }
 }

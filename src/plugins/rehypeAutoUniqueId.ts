@@ -8,7 +8,7 @@ export function rehypeAutoUniqueId(){
     visit(tree, 'element', (node: Element) => {
       const startOffset = node.position?.start.offset;
       const endOffset = node.position?.end.offset;
-      if(startOffset &&  endOffset){
+      if(startOffset !== undefined && endOffset !== undefined){
         const uniqueId = `${node.tagName}_${startOffset}-${endOffset}`;
         node.properties.id = uniqueId;
       }
