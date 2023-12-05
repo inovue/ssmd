@@ -1,17 +1,23 @@
-import { Root } from 'hast';
+import { Compiler, Processor } from "unified"
 import type { Element } from 'xast';
 import {toXast} from 'hast-util-to-xast'
 import {toXml} from 'xast-util-to-xml'
 import { visit } from 'unist-util-visit';
 import { remove } from 'unist-util-remove';
 
-export function rehypeToSsml() {
-  return (tree: Root) => {
-    // Turn hast to xast:
-    const xast = toXast(tree)
+import type { Root } from 'hast'
 
-    // Traverse the xast tree and modify nodes:
+
+export function rehypeSsmlStringify(this: Processor, options = {}) {
+  console.info(options)
+
+  const compiler:Compiler = (root) => {
+    console.info(root)
+    
+    const xast = toXast(root as Root)
+    
     visit(xast, 'element', (node, index, parent) => {
+      
       // Add <mark name={id} /> before nodes with id
       if (node.attributes.id) {
         const markNode: Element = {
@@ -20,21 +26,25 @@ export function rehypeToSsml() {
           attributes: { name: node.attributes.id },
           children: []
         };
+        node.attributes.id = undefined;
         node.children.unshift(markNode);
       }
       
       // Remove unsupported tags
-      if (index !== undefined && node.type === 'element' && ['input', 'pre', 'code', 'img'].includes(node.name)) {
-        remove(node);
-      }else if (node.name.startsWith('h')) {
-        node.name = 'p';
-      }else {
-        node.name = 's';
+      if (index !== undefined && node.name !== 'mark'){
+        if(['input', 'pre', 'code', 'img'].includes(node.name)) {
+          // remove(node);
+        }else if (node.name.startsWith('h')) {
+          node.name = 'p';
+        }else {
+          node.name = 's';
+        }
       }
     });
     
     const xml = toXml(xast);
-    console.log(xml);
     return xml;
-  };
+  }
+  
+  this.compiler = compiler;
 }
