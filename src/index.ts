@@ -11,7 +11,14 @@ import remarkGfm from "remark-gfm";
 
 import { rehypeCommentExpand } from "./plugins/rehypeCommentExpand.js";
 import { rehypeAutoUniqueId } from "./plugins/rehypeAutoUniqueId.js";
-import { rehypeSsmlStringify } from "./plugins/rehypeSsmlStringify.js";
+import { 
+  hastToXast, 
+  xastAddBookmark, 
+  xastRemoveUnsupportedTags, 
+  xastReplaceTags, 
+  xastStringify 
+} from "./plugins/rehypeSsmlStringify.js";
+
 import rehypeRaw from "rehype-raw";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -25,7 +32,8 @@ const __dirname = path.dirname(__filename);
   const mdast = unified().use(remarkParse).use(remarkGfm).parse(mdString);
   const hast = unified().use(remarkRehype, {allowDangerousHtml: true}).runSync(mdast);
   const hast2 = unified().use(rehypeAutoUniqueId).use(rehypeCommentExpand).use(rehypeRaw).runSync(hast);
-  const ssml = unified().use(rehypeSsmlStringify).stringify(hast2);
+  const xast = unified().use(hastToXast).use(xastAddBookmark).use(xastRemoveUnsupportedTags).use(xastReplaceTags).runSync(hast2);
+  const ssml = unified().use(xastStringify).stringify(xast);
   const htmlString = unified().use(rehypeStringify).stringify(hast2);
 
   /*
@@ -37,9 +45,9 @@ const __dirname = path.dirname(__filename);
     .processSync(mdString).toString();
   */
 
-  console.log(htmlString);
+  //console.log(htmlString);
   fs.writeFileSync(path.resolve(__dirname, "example.html"), htmlString);
 
-  console.log(ssml);
+  //console.log(ssml);
   fs.writeFileSync(path.resolve(__dirname, "example.ssml"), ssml);
 })();
