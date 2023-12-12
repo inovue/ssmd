@@ -1,124 +1,124 @@
-<mark name="h3_0-12"><p>Features</p></mark>
-<mark name="ul_14-737"><s>
-<mark name="li_14-89"><s>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</s></mark>
-<mark name="li_90-312"><s>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</s></mark>
-<mark name="li_313-395"><s>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</s></mark>
-<mark name="li_396-470"><s>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</s></mark>
-<mark name="li_471-537"><s>Support identification, interpretation, fliter of the HTML tags;</s></mark>
-<mark name="li_538-648"><s>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</s></mark>
-<mark name="li_649-737"><s>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</s></mark>
-</s></mark>
-<mark name="h1_739-750"><p>Editor.md</p></mark>
-<mark name="p_752-830"><p><mark name="img_752-830"></mark></p></mark>
-<mark name="p_832-1192"><p><mark name="img_832-893"></mark> <mark name="img_894-955"></mark> <mark name="img_956-1015"></mark> <mark name="img_1016-1079"></mark> <mark name="img_1080-1142"></mark> <mark name="img_1143-1192"></mark></p></mark>
-<mark name="p_1194-1215"><p><mark name="strong_1194-1215"><s>Table of Contents</s></mark></p></mark>
-<mark name="p_1217-1223"><p>[TOCM]</p></mark>
-<mark name="p_1225-1230"><p>[TOC]</p></mark>
-<mark name="h1_1232-1243"><p>H1 header</p></mark>
-<mark name="h2_1244-1256"><p>H2 header</p></mark>
-<mark name="h3_1257-1270"><p>H3 header</p></mark>
-<mark name="h4_1271-1285"><p>H4 header</p></mark>
-<mark name="h5_1286-1301"><p>H5 header</p></mark>
-<mark name="h6_1302-1318"><p>H6 header</p></mark>
-<mark name="h1_1319-1402"><p>Heading 1 link <mark name="a_1336-1402"><s>Heading link</s></mark></p></mark>
-<mark name="h2_1403-1487"><p>Heading 2 link <mark name="a_1421-1487"><s>Heading link</s></mark></p></mark>
-<mark name="h3_1488-1573"><p>Heading 3 link <mark name="a_1507-1573"><s>Heading link</s></mark></p></mark>
-<mark name="h4_1574-1740"><p>Heading 4 link <mark name="a_1594-1660"><s>Heading link</s></mark> Heading link <mark name="a_1674-1740"><s>Heading link</s></mark></p></mark>
-<mark name="h5_1741-1828"><p>Heading 5 link <mark name="a_1762-1828"><s>Heading link</s></mark></p></mark>
-<mark name="h6_1829-1917"><p>Heading 6 link <mark name="a_1851-1917"><s>Heading link</s></mark></p></mark>
-<mark name="h2_1919-1941"><p>Headers (Underline)</p></mark>
-<mark name="h1_1943-1966"><p>H1 Header (Underline)</p></mark>
-<mark name="h2_1968-1992"><p>H2 Header (Underline)</p></mark>
-<mark name="h3_1994-2008"><p>Characters</p></mark>
-<mark name="hr_2010-2013"><p></p></mark>
-<mark name="p_2015-2172"><p><mark name="del_2015-2032"><s>Strikethrough</s></mark> <s>Strikethrough (when enable html tag decode.)</s>
-<mark name="em_2085-2093"><s>Italic</s></mark> <mark name="em_2094-2102"><s>Italic</s></mark>
-<mark name="strong_2103-2115"><s>Emphasis</s></mark> <mark name="strong_2116-2128"><s>Emphasis</s></mark>
-<mark name="strong_2129-2150"><s><mark name="em_2131-2148"><s>Emphasis Italic</s></mark></s></mark> <mark name="strong_2151-2172"><s><mark name="em_2153-2170"><s>Emphasis Italic</s></mark></s></mark></p></mark>
-<mark name="p_2174-2225"><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p></mark>
-<mark name="p_2227-2263"><p><mark name="strong_2227-2263"><s>Abbreviation(link HTML abbr tag)</s></mark></p></mark>
-<mark name="p_2265-2408"><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p></mark>
-<mark name="h3_2410-2425"><p>Blockquotes</p></mark>
-<mark name="blockquote_2427-2440"><s>
-<mark name="p_2429-2440"><p>Blockquotes</p></mark>
-</s></mark>
-<mark name="p_2442-2468"><p>Paragraphs and Line Breaks</p></mark>
-<mark name="blockquote_2470-2525"><s>
-<mark name="p_2472-2525"><p>"Blockquotes Blockquotes", <mark name="a_2499-2524"><s>Link</s></mark>。</p></mark>
-</s></mark>
-<mark name="h3_2527-2536"><p>Links</p></mark>
-<mark name="p_2538-2564"><p><mark name="a_2538-2564"><s>Links</s></mark></p></mark>
-<mark name="p_2566-2616"><p><mark name="a_2566-2616"><s>Links with title</s></mark></p></mark>
-<mark name="p_2618-2649"><p><mark name="code_2618-2626"></mark> : <mark name="a_2629-2649"><s>https://github.com</s></mark></p></mark>
-<mark name="p_2651-2676"><p><mark name="a_2651-2676"><s>Reference link</s></mark></p></mark>
-<mark name="p_2707-2730"><p>GFM a-tail link @pandao</p></mark>
-<mark name="h3_2732-2779"><p>Code Blocks (multi-language) &#x26; highlighting</p></mark>
-<mark name="h4_2781-2797"><p>Inline code</p></mark>
-<mark name="p_2799-2821"><p><mark name="code_2799-2821"></mark></p></mark>
-<mark name="h4_2823-2856"><p>Code Blocks (Indented style)</p></mark>
-<mark name="p_2858-2910"><p>Indented 4 spaces, like <mark name="code_2882-2889"></mark> (Preformatted Text).</p></mark>
-<mark name="pre_2912-2957"></mark>
-<mark name="p_2959-2991"><p>Code Blocks (Preformatted text):</p></mark>
-<mark name="pre_2993-3144"></mark>
-<mark name="h4_3146-3161"><p>Javascript</p></mark>
-<mark name="pre_3163-3711"></mark>
-<mark name="h4_3713-3727"><p>HTML code</p></mark>
-<mark name="pre_3729-3896"></mark>
-<mark name="h3_3898-3908"><p>Images</p></mark>
-<mark name="p_3910-3916"><p>Image:</p></mark>
-<mark name="p_3918-3979"><p><mark name="img_3918-3979"></mark></p></mark>
-<mark name="blockquote_3981-4001"><s>
-<mark name="p_3983-4001"><p>Follow your heart.</p></mark>
-</s></mark>
-<mark name="p_4003-4064"><p><mark name="img_4003-4064"></mark></p></mark>
-<mark name="blockquote_4066-4084"><s>
-<mark name="p_4068-4084"><p>图为：厦门白城沙滩 Xiamen</p></mark>
-</s></mark>
-<mark name="p_4086-4107"><p>图片加链接 (Image + Link)：</p></mark>
-<mark name="p_4109-4247"><p><mark name="a_4109-4247"><s><mark name="img_4110-4171"></mark></s></mark></p></mark>
-<mark name="blockquote_4249-4268"><s>
-<mark name="p_4251-4268"><p>图为：李健首张专辑《似水流年》封面</p></mark>
-</s></mark>
-<mark name="hr_4270-4273"><p></p></mark>
-<mark name="h3_4275-4284"><p>Lists</p></mark>
-<mark name="h4_4286-4309"><p>Unordered list (-)</p></mark>
-<mark name="ul_4311-4337"><s>
-<mark name="li_4311-4319"><s>Item A</s></mark>
-<mark name="li_4320-4328"><s>Item B</s></mark>
-<mark name="li_4329-4337"><s>Item C</s></mark>
-</s></mark>
-<mark name="h4_4339-4363"><p>Unordered list (*)</p></mark>
-<mark name="ul_4365-4391"><s>
-<mark name="li_4365-4373"><s>Item A</s></mark>
-<mark name="li_4374-4382"><s>Item B</s></mark>
-<mark name="li_4383-4391"><s>Item C</s></mark>
-</s></mark>
-<mark name="h4_4393-4435"><p>Unordered list (plus sign and nested)</p></mark>
-<mark name="ul_4437-4541"><s>
-<mark name="li_4437-4445"><s>Item A</s></mark>
-<mark name="li_4446-4493"><s>Item B
-<mark name="ul_4457-4493"><s>
-<mark name="li_4457-4467"><s>Item B 1</s></mark>
-<mark name="li_4470-4480"><s>Item B 2</s></mark>
-<mark name="li_4483-4493"><s>Item B 3</s></mark>
-</s></mark>
-</s></mark>
-<mark name="li_4494-4541"><s>Item C
-<mark name="ul_4505-4541"><s>
-<mark name="li_4505-4515"><s>Item C 1</s></mark>
-<mark name="li_4518-4528"><s>Item C 2</s></mark>
-<mark name="li_4531-4541"><s>Item C 3</s></mark>
-</s></mark>
-</s></mark>
-</s></mark>
-<mark name="h4_4543-4560"><p>Ordered list</p></mark>
-<mark name="ol_4562-4591"><s>
-<mark name="li_4562-4571"><s>Item A</s></mark>
-<mark name="li_4572-4581"><s>Item B</s></mark>
-<mark name="li_4582-4591"><s>Item C</s></mark>
-</s></mark>
-<mark name="hr_4593-4596"><p></p></mark>
-<mark name="h3_4598-4608"><p>Tables</p></mark>
+<bookmark mark="h3_0-12"><p>Features</p></bookmark>
+<bookmark mark="ul_14-737"><s>
+<bookmark mark="li_14-89"><s>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</s></bookmark>
+<bookmark mark="li_90-312"><s>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</s></bookmark>
+<bookmark mark="li_313-395"><s>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</s></bookmark>
+<bookmark mark="li_396-470"><s>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</s></bookmark>
+<bookmark mark="li_471-537"><s>Support identification, interpretation, fliter of the HTML tags;</s></bookmark>
+<bookmark mark="li_538-648"><s>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</s></bookmark>
+<bookmark mark="li_649-737"><s>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</s></bookmark>
+</s></bookmark>
+<bookmark mark="h1_739-750"><p>Editor.md</p></bookmark>
+<bookmark mark="p_752-830"><p><bookmark mark="img_752-830"></bookmark></p></bookmark>
+<bookmark mark="p_832-1192"><p><bookmark mark="img_832-893"></bookmark> <bookmark mark="img_894-955"></bookmark> <bookmark mark="img_956-1015"></bookmark> <bookmark mark="img_1016-1079"></bookmark> <bookmark mark="img_1080-1142"></bookmark> <bookmark mark="img_1143-1192"></bookmark></p></bookmark>
+<bookmark mark="p_1194-1215"><p><bookmark mark="strong_1194-1215"><s>Table of Contents</s></bookmark></p></bookmark>
+<bookmark mark="p_1217-1223"><p>[TOCM]</p></bookmark>
+<bookmark mark="p_1225-1230"><p>[TOC]</p></bookmark>
+<bookmark mark="h1_1232-1243"><p>H1 header</p></bookmark>
+<bookmark mark="h2_1244-1256"><p>H2 header</p></bookmark>
+<bookmark mark="h3_1257-1270"><p>H3 header</p></bookmark>
+<bookmark mark="h4_1271-1285"><p>H4 header</p></bookmark>
+<bookmark mark="h5_1286-1301"><p>H5 header</p></bookmark>
+<bookmark mark="h6_1302-1318"><p>H6 header</p></bookmark>
+<bookmark mark="h1_1319-1402"><p>Heading 1 link <bookmark mark="a_1336-1402"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h2_1403-1487"><p>Heading 2 link <bookmark mark="a_1421-1487"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h3_1488-1573"><p>Heading 3 link <bookmark mark="a_1507-1573"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h4_1574-1740"><p>Heading 4 link <bookmark mark="a_1594-1660"><s>Heading link</s></bookmark> Heading link <bookmark mark="a_1674-1740"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h5_1741-1828"><p>Heading 5 link <bookmark mark="a_1762-1828"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h6_1829-1917"><p>Heading 6 link <bookmark mark="a_1851-1917"><s>Heading link</s></bookmark></p></bookmark>
+<bookmark mark="h2_1919-1941"><p>Headers (Underline)</p></bookmark>
+<bookmark mark="h1_1943-1966"><p>H1 Header (Underline)</p></bookmark>
+<bookmark mark="h2_1968-1992"><p>H2 Header (Underline)</p></bookmark>
+<bookmark mark="h3_1994-2008"><p>Characters</p></bookmark>
+<bookmark mark="hr_2010-2013"><p></p></bookmark>
+<bookmark mark="p_2015-2172"><p><bookmark mark="del_2015-2032"><s>Strikethrough</s></bookmark> <s>Strikethrough (when enable html tag decode.)</s>
+<bookmark mark="em_2085-2093"><s>Italic</s></bookmark> <bookmark mark="em_2094-2102"><s>Italic</s></bookmark>
+<bookmark mark="strong_2103-2115"><s>Emphasis</s></bookmark> <bookmark mark="strong_2116-2128"><s>Emphasis</s></bookmark>
+<bookmark mark="strong_2129-2150"><s><bookmark mark="em_2131-2148"><s>Emphasis Italic</s></bookmark></s></bookmark> <bookmark mark="strong_2151-2172"><s><bookmark mark="em_2153-2170"><s>Emphasis Italic</s></bookmark></s></bookmark></p></bookmark>
+<bookmark mark="p_2174-2225"><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p></bookmark>
+<bookmark mark="p_2227-2263"><p><bookmark mark="strong_2227-2263"><s>Abbreviation(link HTML abbr tag)</s></bookmark></p></bookmark>
+<bookmark mark="p_2265-2408"><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p></bookmark>
+<bookmark mark="h3_2410-2425"><p>Blockquotes</p></bookmark>
+<bookmark mark="blockquote_2427-2440"><s>
+<bookmark mark="p_2429-2440"><p>Blockquotes</p></bookmark>
+</s></bookmark>
+<bookmark mark="p_2442-2468"><p>Paragraphs and Line Breaks</p></bookmark>
+<bookmark mark="blockquote_2470-2525"><s>
+<bookmark mark="p_2472-2525"><p>"Blockquotes Blockquotes", <bookmark mark="a_2499-2524"><s>Link</s></bookmark>。</p></bookmark>
+</s></bookmark>
+<bookmark mark="h3_2527-2536"><p>Links</p></bookmark>
+<bookmark mark="p_2538-2564"><p><bookmark mark="a_2538-2564"><s>Links</s></bookmark></p></bookmark>
+<bookmark mark="p_2566-2616"><p><bookmark mark="a_2566-2616"><s>Links with title</s></bookmark></p></bookmark>
+<bookmark mark="p_2618-2649"><p><bookmark mark="code_2618-2626"></bookmark> : <bookmark mark="a_2629-2649"><s>https://github.com</s></bookmark></p></bookmark>
+<bookmark mark="p_2651-2676"><p><bookmark mark="a_2651-2676"><s>Reference link</s></bookmark></p></bookmark>
+<bookmark mark="p_2707-2730"><p>GFM a-tail link @pandao</p></bookmark>
+<bookmark mark="h3_2732-2779"><p>Code Blocks (multi-language) &#x26; highlighting</p></bookmark>
+<bookmark mark="h4_2781-2797"><p>Inline code</p></bookmark>
+<bookmark mark="p_2799-2821"><p><bookmark mark="code_2799-2821"></bookmark></p></bookmark>
+<bookmark mark="h4_2823-2856"><p>Code Blocks (Indented style)</p></bookmark>
+<bookmark mark="p_2858-2910"><p>Indented 4 spaces, like <bookmark mark="code_2882-2889"></bookmark> (Preformatted Text).</p></bookmark>
+<bookmark mark="pre_2912-2957"></bookmark>
+<bookmark mark="p_2959-2991"><p>Code Blocks (Preformatted text):</p></bookmark>
+<bookmark mark="pre_2993-3144"></bookmark>
+<bookmark mark="h4_3146-3161"><p>Javascript</p></bookmark>
+<bookmark mark="pre_3163-3711"></bookmark>
+<bookmark mark="h4_3713-3727"><p>HTML code</p></bookmark>
+<bookmark mark="pre_3729-3896"></bookmark>
+<bookmark mark="h3_3898-3908"><p>Images</p></bookmark>
+<bookmark mark="p_3910-3916"><p>Image:</p></bookmark>
+<bookmark mark="p_3918-3979"><p><bookmark mark="img_3918-3979"></bookmark></p></bookmark>
+<bookmark mark="blockquote_3981-4001"><s>
+<bookmark mark="p_3983-4001"><p>Follow your heart.</p></bookmark>
+</s></bookmark>
+<bookmark mark="p_4003-4064"><p><bookmark mark="img_4003-4064"></bookmark></p></bookmark>
+<bookmark mark="blockquote_4066-4084"><s>
+<bookmark mark="p_4068-4084"><p>图为：厦门白城沙滩 Xiamen</p></bookmark>
+</s></bookmark>
+<bookmark mark="p_4086-4107"><p>图片加链接 (Image + Link)：</p></bookmark>
+<bookmark mark="p_4109-4247"><p><bookmark mark="a_4109-4247"><s><bookmark mark="img_4110-4171"></bookmark></s></bookmark></p></bookmark>
+<bookmark mark="blockquote_4249-4268"><s>
+<bookmark mark="p_4251-4268"><p>图为：李健首张专辑《似水流年》封面</p></bookmark>
+</s></bookmark>
+<bookmark mark="hr_4270-4273"><p></p></bookmark>
+<bookmark mark="h3_4275-4284"><p>Lists</p></bookmark>
+<bookmark mark="h4_4286-4309"><p>Unordered list (-)</p></bookmark>
+<bookmark mark="ul_4311-4337"><s>
+<bookmark mark="li_4311-4319"><s>Item A</s></bookmark>
+<bookmark mark="li_4320-4328"><s>Item B</s></bookmark>
+<bookmark mark="li_4329-4337"><s>Item C</s></bookmark>
+</s></bookmark>
+<bookmark mark="h4_4339-4363"><p>Unordered list (*)</p></bookmark>
+<bookmark mark="ul_4365-4391"><s>
+<bookmark mark="li_4365-4373"><s>Item A</s></bookmark>
+<bookmark mark="li_4374-4382"><s>Item B</s></bookmark>
+<bookmark mark="li_4383-4391"><s>Item C</s></bookmark>
+</s></bookmark>
+<bookmark mark="h4_4393-4435"><p>Unordered list (plus sign and nested)</p></bookmark>
+<bookmark mark="ul_4437-4541"><s>
+<bookmark mark="li_4437-4445"><s>Item A</s></bookmark>
+<bookmark mark="li_4446-4493"><s>Item B
+<bookmark mark="ul_4457-4493"><s>
+<bookmark mark="li_4457-4467"><s>Item B 1</s></bookmark>
+<bookmark mark="li_4470-4480"><s>Item B 2</s></bookmark>
+<bookmark mark="li_4483-4493"><s>Item B 3</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+<bookmark mark="li_4494-4541"><s>Item C
+<bookmark mark="ul_4505-4541"><s>
+<bookmark mark="li_4505-4515"><s>Item C 1</s></bookmark>
+<bookmark mark="li_4518-4528"><s>Item C 2</s></bookmark>
+<bookmark mark="li_4531-4541"><s>Item C 3</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+<bookmark mark="h4_4543-4560"><p>Ordered list</p></bookmark>
+<bookmark mark="ol_4562-4591"><s>
+<bookmark mark="li_4562-4571"><s>Item A</s></bookmark>
+<bookmark mark="li_4572-4581"><s>Item B</s></bookmark>
+<bookmark mark="li_4582-4591"><s>Item C</s></bookmark>
+</s></bookmark>
+<bookmark mark="hr_4593-4596"><p></p></bookmark>
+<bookmark mark="h3_4598-4608"><p>Tables</p></bookmark>
 
 
 
@@ -136,7 +136,7 @@
 
 
 
-<mark name="table_4610-4741"><s><mark name="thead_4610-4642"><s><mark name="tr_4610-4642"><s><mark name="th_4610-4625"><s>First Header</s></mark><mark name="th_4625-4642"><s>Second Header</s></mark></s></mark></s></mark><mark name="tbody_4676-4741"><s><mark name="tr_4676-4708"><s><mark name="td_4676-4691"><s>Content Cell</s></mark><mark name="td_4691-4708"><s>Content Cell</s></mark></s></mark><mark name="tr_4709-4741"><s><mark name="td_4709-4724"><s>Content Cell</s></mark><mark name="td_4724-4741"><s>Content Cell</s></mark></s></mark></s></mark></s></mark>
+<bookmark mark="table_4610-4741"><s><bookmark mark="thead_4610-4642"><s><bookmark mark="tr_4610-4642"><s><bookmark mark="th_4610-4625"><s>First Header</s></bookmark><bookmark mark="th_4625-4642"><s>Second Header</s></bookmark></s></bookmark></s></bookmark><bookmark mark="tbody_4676-4741"><s><bookmark mark="tr_4676-4708"><s><bookmark mark="td_4676-4691"><s>Content Cell</s></bookmark><bookmark mark="td_4691-4708"><s>Content Cell</s></bookmark></s></bookmark><bookmark mark="tr_4709-4741"><s><bookmark mark="td_4709-4724"><s>Content Cell</s></bookmark><bookmark mark="td_4724-4741"><s>Content Cell</s></bookmark></s></bookmark></s></bookmark></s></bookmark>
 
 
 
@@ -154,7 +154,7 @@
 
 
 
-<mark name="table_4743-4874"><s><mark name="thead_4743-4775"><s><mark name="tr_4743-4775"><s><mark name="th_4743-4758"><s>First Header</s></mark><mark name="th_4758-4775"><s>Second Header</s></mark></s></mark></s></mark><mark name="tbody_4809-4874"><s><mark name="tr_4809-4841"><s><mark name="td_4809-4824"><s>Content Cell</s></mark><mark name="td_4824-4841"><s>Content Cell</s></mark></s></mark><mark name="tr_4842-4874"><s><mark name="td_4842-4857"><s>Content Cell</s></mark><mark name="td_4857-4874"><s>Content Cell</s></mark></s></mark></s></mark></s></mark>
+<bookmark mark="table_4743-4874"><s><bookmark mark="thead_4743-4775"><s><bookmark mark="tr_4743-4775"><s><bookmark mark="th_4743-4758"><s>First Header</s></bookmark><bookmark mark="th_4758-4775"><s>Second Header</s></bookmark></s></bookmark></s></bookmark><bookmark mark="tbody_4809-4874"><s><bookmark mark="tr_4809-4841"><s><bookmark mark="td_4809-4824"><s>Content Cell</s></bookmark><bookmark mark="td_4824-4841"><s>Content Cell</s></bookmark></s></bookmark><bookmark mark="tr_4842-4874"><s><bookmark mark="td_4842-4857"><s>Content Cell</s></bookmark><bookmark mark="td_4857-4874"><s>Content Cell</s></bookmark></s></bookmark></s></bookmark></s></bookmark>
 
 
 
@@ -172,7 +172,7 @@
 
 
 
-<mark name="table_4876-5063"><s><mark name="thead_4876-4922"><s><mark name="tr_4876-4922"><s><mark name="th_4876-4892"><s>Function name</s></mark><mark name="th_4892-4922"><s>Description</s></mark></s></mark></s></mark><mark name="tbody_4970-5063"><s><mark name="tr_4970-5016"><s><mark name="td_4970-4986"><s><mark name="code_4972-4980"></mark></s></mark><mark name="td_4986-5016"><s>Display the help window.</s></mark></s></mark><mark name="tr_5017-5063"><s><mark name="td_5017-5033"><s><mark name="code_5019-5030"></mark></s></mark><mark name="td_5033-5063"><s><mark name="strong_5035-5061"><s>Destroy your computer!</s></mark></s></mark></s></mark></s></mark></s></mark>
+<bookmark mark="table_4876-5063"><s><bookmark mark="thead_4876-4922"><s><bookmark mark="tr_4876-4922"><s><bookmark mark="th_4876-4892"><s>Function name</s></bookmark><bookmark mark="th_4892-4922"><s>Description</s></bookmark></s></bookmark></s></bookmark><bookmark mark="tbody_4970-5063"><s><bookmark mark="tr_4970-5016"><s><bookmark mark="td_4970-4986"><s><bookmark mark="code_4972-4980"></bookmark></s></bookmark><bookmark mark="td_4986-5016"><s>Display the help window.</s></bookmark></s></bookmark><bookmark mark="tr_5017-5063"><s><bookmark mark="td_5017-5033"><s><bookmark mark="code_5019-5030"></bookmark></s></bookmark><bookmark mark="td_5033-5063"><s><bookmark mark="strong_5035-5061"><s>Destroy your computer!</s></bookmark></s></bookmark></s></bookmark></s></bookmark></s></bookmark>
 
 
 
@@ -194,7 +194,7 @@
 
 
 
-<mark name="table_5065-5169"><s><mark name="thead_5065-5085"><s><mark name="tr_5065-5085"><s><mark name="th_5065-5076"><s>Item</s></mark><mark name="th_5076-5085"><s>Value</s></mark></s></mark></s></mark><mark name="tbody_5107-5169"><s><mark name="tr_5107-5127"><s><mark name="td_5107-5118"><s>Computer</s></mark><mark name="td_5118-5127"><s>$1600</s></mark></s></mark><mark name="tr_5128-5148"><s><mark name="td_5128-5139"><s>Phone</s></mark><mark name="td_5139-5148"><s>$12</s></mark></s></mark><mark name="tr_5149-5169"><s><mark name="td_5149-5160"><s>Pipe</s></mark><mark name="td_5160-5169"><s>$1</s></mark></s></mark></s></mark></s></mark>
+<bookmark mark="table_5065-5169"><s><bookmark mark="thead_5065-5085"><s><bookmark mark="tr_5065-5085"><s><bookmark mark="th_5065-5076"><s>Item</s></bookmark><bookmark mark="th_5076-5085"><s>Value</s></bookmark></s></bookmark></s></bookmark><bookmark mark="tbody_5107-5169"><s><bookmark mark="tr_5107-5127"><s><bookmark mark="td_5107-5118"><s>Computer</s></bookmark><bookmark mark="td_5118-5127"><s>$1600</s></bookmark></s></bookmark><bookmark mark="tr_5128-5148"><s><bookmark mark="td_5128-5139"><s>Phone</s></bookmark><bookmark mark="td_5139-5148"><s>$12</s></bookmark></s></bookmark><bookmark mark="tr_5149-5169"><s><bookmark mark="td_5149-5160"><s>Pipe</s></bookmark><bookmark mark="td_5160-5169"><s>$1</s></bookmark></s></bookmark></s></bookmark></s></bookmark>
 
 
 
@@ -220,62 +220,62 @@
 
 
 
-<mark name="table_5171-5430"><s><mark name="thead_5171-5222"><s><mark name="tr_5171-5222"><s><mark name="th_5171-5187"><s>Left-Aligned</s></mark><mark name="th_5187-5205"><s>Center Aligned</s></mark><mark name="th_5205-5222"><s>Right Aligned</s></mark></s></mark></s></mark><mark name="tbody_5275-5430"><s><mark name="tr_5275-5326"><s><mark name="td_5275-5291"><s>col 3 is</s></mark><mark name="td_5291-5309"><s>some wordy text</s></mark><mark name="td_5309-5326"><s>$1600</s></mark></s></mark><mark name="tr_5327-5378"><s><mark name="td_5327-5343"><s>col 2 is</s></mark><mark name="td_5343-5361"><s>centered</s></mark><mark name="td_5361-5378"><s>$12</s></mark></s></mark><mark name="tr_5379-5430"><s><mark name="td_5379-5395"><s>zebra stripes</s></mark><mark name="td_5395-5413"><s>are neat</s></mark><mark name="td_5413-5430"><s>$1</s></mark></s></mark></s></mark></s></mark>
-<mark name="hr_5432-5435"><p></p></mark>
-<mark name="h4_5437-5455"><p>HTML entities</p></mark>
-<mark name="p_5457-5586"><p>© &#x26; ¨ ™ ¡ £
-&#x26; &#x3C; > ¥ € ® ± ¶ § ¦ ¯ « ·</p></mark>
-<mark name="p_5588-5646"><p>X² Y³ ¾ ¼ × ÷ »</p></mark>
-<mark name="p_5648-5671"><p>18ºC " '</p></mark>
-<mark name="h2_5673-5707"><p>Escaping for Special Characters</p></mark>
-<mark name="p_5709-5730"><p>*literal asterisks*</p></mark>
-<mark name="h2_5732-5750"><p>Markdown extras</p></mark>
-<mark name="h3_5752-5769"><p>GFM task list</p></mark>
-<mark name="ul_5771-5988"><s>
-<mark name="li_5771-5792"><s> GFM task list 1</s></mark>
-<mark name="li_5793-5814"><s> GFM task list 2</s></mark>
-<mark name="li_5815-5914"><s> GFM task list 3
-<mark name="ul_5839-5914"><s>
-<mark name="li_5839-5862"><s> GFM task list 3-1</s></mark>
-<mark name="li_5865-5888"><s> GFM task list 3-2</s></mark>
-<mark name="li_5891-5914"><s> GFM task list 3-3</s></mark>
-</s></mark>
-</s></mark>
-<mark name="li_5915-5988"><s> GFM task list 4
-<mark name="ul_5939-5988"><s>
-<mark name="li_5939-5962"><s> GFM task list 4-1</s></mark>
-<mark name="li_5965-5988"><s> GFM task list 4-2</s></mark>
-</s></mark>
-</s></mark>
-</s></mark>
-<mark name="h3_5990-6014"><p>Emoji mixed :smiley:</p></mark>
-<mark name="blockquote_6016-6036"><s>
-<mark name="p_6018-6036"><p>Blockquotes :star:</p></mark>
-</s></mark>
-<mark name="h4_6038-6131"><p>GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</p></mark>
-<mark name="ul_6133-6676"><s>
-<mark name="li_6133-6248"><s> :smiley: @mentions, :smiley: #refs, <mark name="a_6175-6184"><s>links</s></mark>, <mark name="strong_6186-6200"><s>formatting</s></mark>, and <s>tags</s> supported :editormd-logo:;</s></mark>
-<mark name="li_6249-6337"><s> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</s></mark>
-<mark name="li_6338-6390"><s> [ ] :smiley: this is a complete item :smiley:;</s></mark>
-<mark name="li_6391-6459"><s> []this is an incomplete item <mark name="a_6426-6440"><s>test link</s></mark> :fa-star: @pandao;</s></mark>
-<mark name="li_6460-6676"><s> [ ]this is an incomplete item :fa-star: :fa-gear:;
-<mark name="ul_6519-6676"><s>
-<mark name="li_6519-6596"><s> :smiley: this is an incomplete item <mark name="a_6561-6575"><s>test link</s></mark> :fa-star: :fa-gear:;</s></mark>
-<mark name="li_6599-6676"><s> :smiley: this is :fa-star: :fa-gear: an incomplete item <mark name="a_6661-6675"><s>test link</s></mark>;</s></mark>
-</s></mark>
-</s></mark>
-</s></mark>
-<mark name="h3_6678-6692"><p>TeX(LaTeX)</p></mark>
-<mark name="p_6694-6704"><p>$$E=mc^2$$</p></mark>
-<mark name="p_6706-6756"><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p></mark>
-<mark name="p_6758-6785"><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p></mark>
-<mark name="p_6787-6842"><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p></mark>
-<mark name="h3_6844-6857"><p>FlowChart</p></mark>
-<mark name="pre_6859-7014"></mark>
-<mark name="h3_7016-7036"><p>Sequence Diagram</p></mark>
-<mark name="pre_7038-7181"></mark>
-<mark name="h3_7183-7190"><p>End</p></mark>
-<mark name="h3_7193-7205"><p>Comments</p></mark>
+<bookmark mark="table_5171-5430"><s><bookmark mark="thead_5171-5222"><s><bookmark mark="tr_5171-5222"><s><bookmark mark="th_5171-5187"><s>Left-Aligned</s></bookmark><bookmark mark="th_5187-5205"><s>Center Aligned</s></bookmark><bookmark mark="th_5205-5222"><s>Right Aligned</s></bookmark></s></bookmark></s></bookmark><bookmark mark="tbody_5275-5430"><s><bookmark mark="tr_5275-5326"><s><bookmark mark="td_5275-5291"><s>col 3 is</s></bookmark><bookmark mark="td_5291-5309"><s>some wordy text</s></bookmark><bookmark mark="td_5309-5326"><s>$1600</s></bookmark></s></bookmark><bookmark mark="tr_5327-5378"><s><bookmark mark="td_5327-5343"><s>col 2 is</s></bookmark><bookmark mark="td_5343-5361"><s>centered</s></bookmark><bookmark mark="td_5361-5378"><s>$12</s></bookmark></s></bookmark><bookmark mark="tr_5379-5430"><s><bookmark mark="td_5379-5395"><s>zebra stripes</s></bookmark><bookmark mark="td_5395-5413"><s>are neat</s></bookmark><bookmark mark="td_5413-5430"><s>$1</s></bookmark></s></bookmark></s></bookmark></s></bookmark>
+<bookmark mark="hr_5432-5435"><p></p></bookmark>
+<bookmark mark="h4_5437-5455"><p>HTML entities</p></bookmark>
+<bookmark mark="p_5457-5586"><p>© &#x26; ¨ ™ ¡ £
+&#x26; &#x3C; > ¥ € ® ± ¶ § ¦ ¯ « ·</p></bookmark>
+<bookmark mark="p_5588-5646"><p>X² Y³ ¾ ¼ × ÷ »</p></bookmark>
+<bookmark mark="p_5648-5671"><p>18ºC " '</p></bookmark>
+<bookmark mark="h2_5673-5707"><p>Escaping for Special Characters</p></bookmark>
+<bookmark mark="p_5709-5730"><p>*literal asterisks*</p></bookmark>
+<bookmark mark="h2_5732-5750"><p>Markdown extras</p></bookmark>
+<bookmark mark="h3_5752-5769"><p>GFM task list</p></bookmark>
+<bookmark mark="ul_5771-5988"><s>
+<bookmark mark="li_5771-5792"><s> GFM task list 1</s></bookmark>
+<bookmark mark="li_5793-5814"><s> GFM task list 2</s></bookmark>
+<bookmark mark="li_5815-5914"><s> GFM task list 3
+<bookmark mark="ul_5839-5914"><s>
+<bookmark mark="li_5839-5862"><s> GFM task list 3-1</s></bookmark>
+<bookmark mark="li_5865-5888"><s> GFM task list 3-2</s></bookmark>
+<bookmark mark="li_5891-5914"><s> GFM task list 3-3</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+<bookmark mark="li_5915-5988"><s> GFM task list 4
+<bookmark mark="ul_5939-5988"><s>
+<bookmark mark="li_5939-5962"><s> GFM task list 4-1</s></bookmark>
+<bookmark mark="li_5965-5988"><s> GFM task list 4-2</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+<bookmark mark="h3_5990-6014"><p>Emoji mixed :smiley:</p></bookmark>
+<bookmark mark="blockquote_6016-6036"><s>
+<bookmark mark="p_6018-6036"><p>Blockquotes :star:</p></bookmark>
+</s></bookmark>
+<bookmark mark="h4_6038-6131"><p>GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</p></bookmark>
+<bookmark mark="ul_6133-6676"><s>
+<bookmark mark="li_6133-6248"><s> :smiley: @mentions, :smiley: #refs, <bookmark mark="a_6175-6184"><s>links</s></bookmark>, <bookmark mark="strong_6186-6200"><s>formatting</s></bookmark>, and <s>tags</s> supported :editormd-logo:;</s></bookmark>
+<bookmark mark="li_6249-6337"><s> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</s></bookmark>
+<bookmark mark="li_6338-6390"><s> [ ] :smiley: this is a complete item :smiley:;</s></bookmark>
+<bookmark mark="li_6391-6459"><s> []this is an incomplete item <bookmark mark="a_6426-6440"><s>test link</s></bookmark> :fa-star: @pandao;</s></bookmark>
+<bookmark mark="li_6460-6676"><s> [ ]this is an incomplete item :fa-star: :fa-gear:;
+<bookmark mark="ul_6519-6676"><s>
+<bookmark mark="li_6519-6596"><s> :smiley: this is an incomplete item <bookmark mark="a_6561-6575"><s>test link</s></bookmark> :fa-star: :fa-gear:;</s></bookmark>
+<bookmark mark="li_6599-6676"><s> :smiley: this is :fa-star: :fa-gear: an incomplete item <bookmark mark="a_6661-6675"><s>test link</s></bookmark>;</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+</s></bookmark>
+<bookmark mark="h3_6678-6692"><p>TeX(LaTeX)</p></bookmark>
+<bookmark mark="p_6694-6704"><p>$$E=mc^2$$</p></bookmark>
+<bookmark mark="p_6706-6756"><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p></bookmark>
+<bookmark mark="p_6758-6785"><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p></bookmark>
+<bookmark mark="p_6787-6842"><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p></bookmark>
+<bookmark mark="h3_6844-6857"><p>FlowChart</p></bookmark>
+<bookmark mark="pre_6859-7014"></bookmark>
+<bookmark mark="h3_7016-7036"><p>Sequence Diagram</p></bookmark>
+<bookmark mark="pre_7038-7181"></bookmark>
+<bookmark mark="h3_7183-7190"><p>End</p></bookmark>
+<bookmark mark="h3_7193-7205"><p>Comments</p></bookmark>
 <p></p>
 <p><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
 <s>Italic</s> <s>Italic</s>

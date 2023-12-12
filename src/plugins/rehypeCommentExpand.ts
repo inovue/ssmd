@@ -5,10 +5,10 @@ import { Root } from 'hast';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
+import { Plugin } from "unified"
 
-
-export function rehypeCommentExpand(){
-  return (tree:Root) => {
+export const rehypeCommentExpand:Plugin<void[], Root, Root> = function () {
+  return (tree) => {
     visit(tree, 'raw', (node, index, parent) => {
       const comment = extractHtmlComment(node.value);
 

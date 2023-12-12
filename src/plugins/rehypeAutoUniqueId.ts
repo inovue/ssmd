@@ -1,9 +1,9 @@
 import { visit } from 'unist-util-visit';
 import { Root } from 'hast';
 import { Element } from 'hast';
+import { Plugin } from "unified"
 
-
-export function rehypeAutoUniqueId(){
+export const rehypeAutoUniqueId:Plugin<void[], Root, Root> = function () {
   return (tree: Root) => {
     visit(tree, 'element', (node: Element) => {
       const startOffset = node.position?.start.offset;

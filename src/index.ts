@@ -28,7 +28,6 @@ const __dirname = path.dirname(__filename);
 
   const mdString = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
 
-
   const mdast = unified().use(remarkParse).use(remarkGfm).parse(mdString);
   const hast = unified().use(remarkRehype, {allowDangerousHtml: true}).runSync(mdast);
   const hast2 = unified().use(rehypeAutoUniqueId).use(rehypeCommentExpand).use(rehypeRaw).runSync(hast);
