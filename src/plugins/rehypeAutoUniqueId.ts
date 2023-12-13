@@ -4,7 +4,7 @@ import { Element } from 'hast';
 import { Plugin } from "unified"
 
 export const rehypeAutoUniqueId:Plugin<void[], Root, Root> = function () {
-  return (tree: Root) => {
+  return (tree) => {
     visit(tree, 'element', (node: Element) => {
       const startOffset = node.position?.start.offset;
       const endOffset = node.position?.end.offset;

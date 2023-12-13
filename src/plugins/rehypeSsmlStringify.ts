@@ -24,15 +24,18 @@ export const xastAddBookmark:Plugin<void[], XastRoot, XastRoot> = function() {
           type: 'element',
           name: 'bookmark',
           attributes: { mark: node.attributes.id },
-          children: [node]
+          children: []
         };
         if (parent && index !== undefined) {
-          parent.children[index] = bookMarkNode;
+          if (index === 0 || (index > 0 && (parent.children[index - 1] as Element).name !== 'bookmark')) {
+            parent.children.splice(index, 0, bookMarkNode);
+          }
         }
       }
     });
   }
 }
+
 
 export const xastRemoveUnsupportedTags:Plugin<void[], XastRoot, XastRoot> = function() {
   const unsupportedTags = ['input', 'pre', 'code', 'img'];
