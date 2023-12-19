@@ -1,4 +1,26 @@
+## SSMD
+
+:::voice{#salah:whisper}
+
+::o[...]
+::o[https://example.com/lexicon.xml]
+::o{#bye}
+
+**hogehoge**
+
+::o[Hello world]{lang="en"}
+
+::o[W3C(World Wide Web Consortium)]
+
+::o[20231231]{as="date:yyyymmdd"}
+
+:::
+
+
+
 ### Features
+
+This is ~~strike~~ strike.
 
 - Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
 - Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
