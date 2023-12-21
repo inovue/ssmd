@@ -21,6 +21,7 @@ import {
 } from "./plugins/rehypeSsmlStringify.js";
 
 import rehypeRaw from "rehype-raw";
+import { remarkSsml } from "./plugins/remarkSsml.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,7 +32,7 @@ const __dirname = path.dirname(__filename);
 
   const mdast = unified().use(remarkParse).use(remarkDirective).use(remarkGfm).parse(mdString);
   //const mdast = unified().use(remarkParse).use(remarkDirective).parse(mdString);
-  const hast = unified().use(remarkRehype, {allowDangerousHtml: true}).runSync(mdast);
+  const hast = unified().use(remarkSsml).use(remarkRehype, {allowDangerousHtml: true}).runSync(mdast);
   const hast2 = unified().use(rehypeAutoUniqueId).use(rehypeCommentExpand).use(rehypeRaw).runSync(hast);
   const xast = unified().use(hastToXast).use(xastAddBookmark).use(xastRemoveUnsupportedTags).use(xastReplaceTags).runSync(hast2);
   const ssml = unified().use(xastStringify).stringify(xast);
