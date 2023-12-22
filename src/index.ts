@@ -9,6 +9,7 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import remarkDirective from 'remark-directive';
 import remarkGfm from "remark-gfm";
+import rehypeFormat from "rehype-format";
 
 import { rehypeCommentExpand } from "./plugins/rehypeCommentExpand.js";
 import { rehypeAutoUniqueId } from "./plugins/rehypeAutoUniqueId.js";
@@ -32,7 +33,7 @@ const __dirname = path.dirname(__filename);
 
   const mdast = unified().use(remarkParse).use(remarkDirective).use(remarkGfm).parse(mdString);
   //const mdast = unified().use(remarkParse).use(remarkDirective).parse(mdString);
-  const hast = unified().use(remarkSsml).use(remarkRehype, {allowDangerousHtml: true}).runSync(mdast);
+  const hast = unified().use(remarkSsml).use(remarkRehype, {allowDangerousHtml: true}).use(rehypeFormat).runSync(mdast);
   const hast2 = unified().use(rehypeAutoUniqueId).use(rehypeCommentExpand).use(rehypeRaw).runSync(hast);
   const xast = unified().use(hastToXast).use(xastAddBookmark).use(xastRemoveUnsupportedTags).use(xastReplaceTags).runSync(hast2);
   const ssml = unified().use(xastStringify).stringify(xast);

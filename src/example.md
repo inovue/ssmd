@@ -1,16 +1,21 @@
 ## SSMD
 
-:::voice{#salah:whisper}
+:::o{voice="salah:whisper"}
 
-::o[...]
-::o[https://example.com/lexicon.xml]
+::o{.500}
+
+::o{uri="https://example.com/lexicon.xml"}
+
 ::o{#bye}
 
 **hogehoge**
 
+# This is Heading 1
+### This is Heading 3
+
 ::o[Hello world]{lang="en"}
 
-::o[W3C(World Wide Web Consortium)]
+::o[W3C]{sub="World Wide Web Consortium"}
 
 ::o[20231231]{as="date:yyyymmdd"}
 

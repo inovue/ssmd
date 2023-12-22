@@ -13,7 +13,7 @@
     "skipLibCheck": false,
     "sourceMap": false,
     "strict": true,
-    "target": "ES2022"
+    "target": "ESNext"
   },
   "include": [
     "src/**/*", // srcディレクトリ内のすべてのファイルを含める

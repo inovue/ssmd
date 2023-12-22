@@ -4,6 +4,7 @@ import { toXast } from 'hast-util-to-xast'
 import { toXml } from 'xast-util-to-xml'
 import { visit } from 'unist-util-visit';
 import type { Root as HastRoot } from 'hast'
+import { isBlockTag, isInlineTag } from "../utils/checkTagName.js";
 
 
 // Transformers
@@ -52,9 +53,12 @@ export const xastRemoveUnsupportedTags:Plugin<void[], XastRoot, XastRoot> = func
 export const xastReplaceTags:Plugin<void[], XastRoot, XastRoot> = function() {
   return (tree) => {
     visit(tree, 'element', (node) => {
-      if(node.name !== 'bookmark'){
+      if(isBlockTag(node.name)){
         node.attributes = {};
-        node.name = (node.name.startsWith('h') || node.name === 'p') ? 'p' : 's';
+        node.name = 'p';
+      }else if(isInlineTag(node.name)){
+        node.attributes = {};
+        node.name = 's';
       }
     });
   }
