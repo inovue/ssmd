@@ -1,153 +1,152 @@
 
 <bookmark mark="h2_0-7"></bookmark><p>SSMD</p>
 <voice xmlns="http://www.w3.org/1999/xhtml" name="salah" effect="whisper">
-  <bookmark mark="p_38-45"></bookmark><p>::o{..}</p>
   <break time="500"></break>
   <lexicon uri="https://example.com/lexicon.xml"></lexicon>
   <bookmark mark="bye"></bookmark>
-  <bookmark mark="p_112-124"></bookmark><p><bookmark mark="strong_112-124"></bookmark><s>hogehoge</s></p>
-  <bookmark mark="h1_126-145"></bookmark><p>This is Heading 1</p>
-  <bookmark mark="h3_146-167"></bookmark><p>This is Heading 3</p>
-  <lang xml:lang="en">Hello world</lang><bookmark mark="sub_198-239"></bookmark><s>W3C</s>
+  <bookmark mark="p_104-116"></bookmark><p><bookmark mark="strong_104-116"></bookmark><s>hogehoge</s></p>
+  <bookmark mark="h1_118-137"></bookmark><p>This is Heading 1</p>
+  <bookmark mark="h3_138-159"></bookmark><p>This is Heading 3</p>
+  <lang xml:lang="en">Hello world</lang><bookmark mark="sub_190-231"></bookmark><s>W3C</s>
   <say-as interpret-as="date" format="yyyymmdd">20231231</say-as>
 </voice>
-<bookmark mark="h3_283-295"></bookmark><p>Features</p>
-<bookmark mark="p_297-323"></bookmark><p>This is <bookmark mark="del_305-315"></bookmark><s>strike</s> strike.</p>
-<bookmark mark="ul_325-1048"></bookmark><p>
-  <bookmark mark="li_325-400"></bookmark><p>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</p>
-  <bookmark mark="li_401-623"></bookmark><p>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</p>
-  <bookmark mark="li_624-706"></bookmark><p>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</p>
-  <bookmark mark="li_707-781"></bookmark><p>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</p>
-  <bookmark mark="li_782-848"></bookmark><p>Support identification, interpretation, fliter of the HTML tags;</p>
-  <bookmark mark="li_849-959"></bookmark><p>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</p>
-  <bookmark mark="li_960-1048"></bookmark><p>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</p>
+<bookmark mark="h3_275-287"></bookmark><p>Features</p>
+<bookmark mark="p_289-315"></bookmark><p>This is <bookmark mark="del_297-307"></bookmark><s>strike</s> strike.</p>
+<bookmark mark="ul_317-1040"></bookmark><p>
+  <bookmark mark="li_317-392"></bookmark><p>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</p>
+  <bookmark mark="li_393-615"></bookmark><p>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</p>
+  <bookmark mark="li_616-698"></bookmark><p>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</p>
+  <bookmark mark="li_699-773"></bookmark><p>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</p>
+  <bookmark mark="li_774-840"></bookmark><p>Support identification, interpretation, fliter of the HTML tags;</p>
+  <bookmark mark="li_841-951"></bookmark><p>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</p>
+  <bookmark mark="li_952-1040"></bookmark><p>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</p>
 </p>
-<bookmark mark="h1_1050-1061"></bookmark><p>Editor.md</p>
-<bookmark mark="p_1063-1141"></bookmark><p>
-  <bookmark mark="img_1063-1141"></bookmark>
+<bookmark mark="h1_1042-1053"></bookmark><p>Editor.md</p>
+<bookmark mark="p_1055-1133"></bookmark><p>
+  <bookmark mark="img_1055-1133"></bookmark>
 </p>
-<bookmark mark="p_1143-1503"></bookmark><p>
-  <bookmark mark="img_1143-1204"></bookmark>
-  <bookmark mark="img_1205-1266"></bookmark>
-  <bookmark mark="img_1267-1326"></bookmark>
-  <bookmark mark="img_1327-1390"></bookmark>
-  <bookmark mark="img_1391-1453"></bookmark>
-  <bookmark mark="img_1454-1503"></bookmark>
+<bookmark mark="p_1135-1495"></bookmark><p>
+  <bookmark mark="img_1135-1196"></bookmark>
+  <bookmark mark="img_1197-1258"></bookmark>
+  <bookmark mark="img_1259-1318"></bookmark>
+  <bookmark mark="img_1319-1382"></bookmark>
+  <bookmark mark="img_1383-1445"></bookmark>
+  <bookmark mark="img_1446-1495"></bookmark>
 </p>
-<bookmark mark="p_1505-1526"></bookmark><p><bookmark mark="strong_1505-1526"></bookmark><s>Table of Contents</s></p>
-<bookmark mark="p_1528-1534"></bookmark><p>[TOCM]</p>
-<bookmark mark="p_1536-1541"></bookmark><p>[TOC]</p>
-<bookmark mark="h1_1543-1554"></bookmark><p>H1 header</p>
-<bookmark mark="h2_1555-1567"></bookmark><p>H2 header</p>
-<bookmark mark="h3_1568-1581"></bookmark><p>H3 header</p>
-<bookmark mark="h4_1582-1596"></bookmark><p>H4 header</p>
-<bookmark mark="h5_1597-1612"></bookmark><p>H5 header</p>
-<bookmark mark="h6_1613-1629"></bookmark><p>H6 header</p>
-<bookmark mark="h1_1630-1713"></bookmark><p>Heading 1 link <bookmark mark="a_1647-1713"></bookmark><s>Heading link</s></p>
-<bookmark mark="h2_1714-1798"></bookmark><p>Heading 2 link <bookmark mark="a_1732-1798"></bookmark><s>Heading link</s></p>
-<bookmark mark="h3_1799-1884"></bookmark><p>Heading 3 link <bookmark mark="a_1818-1884"></bookmark><s>Heading link</s></p>
-<bookmark mark="h4_1885-2051"></bookmark><p>Heading 4 link <bookmark mark="a_1905-1971"></bookmark><s>Heading link</s> Heading link <bookmark mark="a_1985-2051"></bookmark><s>Heading link</s></p>
-<bookmark mark="h5_2052-2139"></bookmark><p>Heading 5 link <bookmark mark="a_2073-2139"></bookmark><s>Heading link</s></p>
-<bookmark mark="h6_2140-2228"></bookmark><p>Heading 6 link <bookmark mark="a_2162-2228"></bookmark><s>Heading link</s></p>
-<bookmark mark="h2_2230-2252"></bookmark><p>Headers (Underline)</p>
-<bookmark mark="h1_2254-2277"></bookmark><p>H1 Header (Underline)</p>
-<bookmark mark="h2_2279-2303"></bookmark><p>H2 Header (Underline)</p>
-<bookmark mark="h3_2305-2319"></bookmark><p>Characters</p>
-<bookmark mark="hr_2321-2324"></bookmark><p></p>
-<bookmark mark="p_2326-2483"></bookmark><p>
-  <bookmark mark="del_2326-2343"></bookmark><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
-  <bookmark mark="em_2396-2404"></bookmark><s>Italic</s> <bookmark mark="em_2405-2413"></bookmark><s>Italic</s>
-  <bookmark mark="strong_2414-2426"></bookmark><s>Emphasis</s> <bookmark mark="strong_2427-2439"></bookmark><s>Emphasis</s>
-  <bookmark mark="strong_2440-2461"></bookmark><s><bookmark mark="em_2442-2459"></bookmark><s>Emphasis Italic</s></s> <bookmark mark="strong_2462-2483"></bookmark><s><bookmark mark="em_2464-2481"></bookmark><s>Emphasis Italic</s></s>
+<bookmark mark="p_1497-1518"></bookmark><p><bookmark mark="strong_1497-1518"></bookmark><s>Table of Contents</s></p>
+<bookmark mark="p_1520-1526"></bookmark><p>[TOCM]</p>
+<bookmark mark="p_1528-1533"></bookmark><p>[TOC]</p>
+<bookmark mark="h1_1535-1546"></bookmark><p>H1 header</p>
+<bookmark mark="h2_1547-1559"></bookmark><p>H2 header</p>
+<bookmark mark="h3_1560-1573"></bookmark><p>H3 header</p>
+<bookmark mark="h4_1574-1588"></bookmark><p>H4 header</p>
+<bookmark mark="h5_1589-1604"></bookmark><p>H5 header</p>
+<bookmark mark="h6_1605-1621"></bookmark><p>H6 header</p>
+<bookmark mark="h1_1622-1705"></bookmark><p>Heading 1 link <bookmark mark="a_1639-1705"></bookmark><s>Heading link</s></p>
+<bookmark mark="h2_1706-1790"></bookmark><p>Heading 2 link <bookmark mark="a_1724-1790"></bookmark><s>Heading link</s></p>
+<bookmark mark="h3_1791-1876"></bookmark><p>Heading 3 link <bookmark mark="a_1810-1876"></bookmark><s>Heading link</s></p>
+<bookmark mark="h4_1877-2043"></bookmark><p>Heading 4 link <bookmark mark="a_1897-1963"></bookmark><s>Heading link</s> Heading link <bookmark mark="a_1977-2043"></bookmark><s>Heading link</s></p>
+<bookmark mark="h5_2044-2131"></bookmark><p>Heading 5 link <bookmark mark="a_2065-2131"></bookmark><s>Heading link</s></p>
+<bookmark mark="h6_2132-2220"></bookmark><p>Heading 6 link <bookmark mark="a_2154-2220"></bookmark><s>Heading link</s></p>
+<bookmark mark="h2_2222-2244"></bookmark><p>Headers (Underline)</p>
+<bookmark mark="h1_2246-2269"></bookmark><p>H1 Header (Underline)</p>
+<bookmark mark="h2_2271-2295"></bookmark><p>H2 Header (Underline)</p>
+<bookmark mark="h3_2297-2311"></bookmark><p>Characters</p>
+<bookmark mark="hr_2313-2316"></bookmark><p></p>
+<bookmark mark="p_2318-2475"></bookmark><p>
+  <bookmark mark="del_2318-2335"></bookmark><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
+  <bookmark mark="em_2388-2396"></bookmark><s>Italic</s> <bookmark mark="em_2397-2405"></bookmark><s>Italic</s>
+  <bookmark mark="strong_2406-2418"></bookmark><s>Emphasis</s> <bookmark mark="strong_2419-2431"></bookmark><s>Emphasis</s>
+  <bookmark mark="strong_2432-2453"></bookmark><s><bookmark mark="em_2434-2451"></bookmark><s>Emphasis Italic</s></s> <bookmark mark="strong_2454-2475"></bookmark><s><bookmark mark="em_2456-2473"></bookmark><s>Emphasis Italic</s></s>
 </p>
-<bookmark mark="p_2485-2536"></bookmark><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p>
-<bookmark mark="p_2538-2574"></bookmark><p><bookmark mark="strong_2538-2574"></bookmark><s>Abbreviation(link HTML abbr tag)</s></p>
-<bookmark mark="p_2576-2719"></bookmark><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p>
-<bookmark mark="h3_2721-2736"></bookmark><p>Blockquotes</p>
-<bookmark mark="blockquote_2738-2751"></bookmark><p>
-  <bookmark mark="p_2740-2751"></bookmark><p>Blockquotes</p>
+<bookmark mark="p_2477-2528"></bookmark><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p>
+<bookmark mark="p_2530-2566"></bookmark><p><bookmark mark="strong_2530-2566"></bookmark><s>Abbreviation(link HTML abbr tag)</s></p>
+<bookmark mark="p_2568-2711"></bookmark><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p>
+<bookmark mark="h3_2713-2728"></bookmark><p>Blockquotes</p>
+<bookmark mark="blockquote_2730-2743"></bookmark><p>
+  <bookmark mark="p_2732-2743"></bookmark><p>Blockquotes</p>
 </p>
-<bookmark mark="p_2753-2779"></bookmark><p>Paragraphs and Line Breaks</p>
-<bookmark mark="blockquote_2781-2836"></bookmark><p>
-  <bookmark mark="p_2783-2836"></bookmark><p>"Blockquotes Blockquotes", <bookmark mark="a_2810-2835"></bookmark><s>Link</s>。</p>
+<bookmark mark="p_2745-2771"></bookmark><p>Paragraphs and Line Breaks</p>
+<bookmark mark="blockquote_2773-2828"></bookmark><p>
+  <bookmark mark="p_2775-2828"></bookmark><p>"Blockquotes Blockquotes", <bookmark mark="a_2802-2827"></bookmark><s>Link</s>。</p>
 </p>
-<bookmark mark="h3_2838-2847"></bookmark><p>Links</p>
-<bookmark mark="p_2849-2875"></bookmark><p><bookmark mark="a_2849-2875"></bookmark><s>Links</s></p>
-<bookmark mark="p_2877-2927"></bookmark><p><bookmark mark="a_2877-2927"></bookmark><s>Links with title</s></p>
-<bookmark mark="p_2929-2960"></bookmark><p><bookmark mark="code_2929-2937"></bookmark> : <bookmark mark="a_2940-2960"></bookmark><s>https://github.com</s></p>
-<bookmark mark="p_2962-2987"></bookmark><p><bookmark mark="a_2962-2987"></bookmark><s>Reference link</s></p>
-<bookmark mark="p_3018-3041"></bookmark><p>GFM a-tail link @pandao</p>
-<bookmark mark="h3_3043-3090"></bookmark><p>Code Blocks (multi-language) &#x26; highlighting</p>
-<bookmark mark="h4_3092-3108"></bookmark><p>Inline code</p>
-<bookmark mark="p_3110-3132"></bookmark><p><bookmark mark="code_3110-3132"></bookmark></p>
-<bookmark mark="h4_3134-3167"></bookmark><p>Code Blocks (Indented style)</p>
-<bookmark mark="p_3169-3221"></bookmark><p>Indented 4 spaces, like <bookmark mark="code_3193-3200"></bookmark> (Preformatted Text).</p>
-<bookmark mark="pre_3223-3268"></bookmark>
-<bookmark mark="p_3270-3302"></bookmark><p>Code Blocks (Preformatted text):</p>
-<bookmark mark="pre_3304-3455"></bookmark>
-<bookmark mark="h4_3457-3472"></bookmark><p>Javascript</p>
-<bookmark mark="pre_3474-4022"></bookmark>
-<bookmark mark="h4_4024-4038"></bookmark><p>HTML code</p>
-<bookmark mark="pre_4040-4207"></bookmark>
-<bookmark mark="h3_4209-4219"></bookmark><p>Images</p>
-<bookmark mark="p_4221-4227"></bookmark><p>Image:</p>
-<bookmark mark="p_4229-4290"></bookmark><p>
-  <bookmark mark="img_4229-4290"></bookmark>
+<bookmark mark="h3_2830-2839"></bookmark><p>Links</p>
+<bookmark mark="p_2841-2867"></bookmark><p><bookmark mark="a_2841-2867"></bookmark><s>Links</s></p>
+<bookmark mark="p_2869-2919"></bookmark><p><bookmark mark="a_2869-2919"></bookmark><s>Links with title</s></p>
+<bookmark mark="p_2921-2952"></bookmark><p><bookmark mark="code_2921-2929"></bookmark> : <bookmark mark="a_2932-2952"></bookmark><s>https://github.com</s></p>
+<bookmark mark="p_2954-2979"></bookmark><p><bookmark mark="a_2954-2979"></bookmark><s>Reference link</s></p>
+<bookmark mark="p_3010-3033"></bookmark><p>GFM a-tail link @pandao</p>
+<bookmark mark="h3_3035-3082"></bookmark><p>Code Blocks (multi-language) &#x26; highlighting</p>
+<bookmark mark="h4_3084-3100"></bookmark><p>Inline code</p>
+<bookmark mark="p_3102-3124"></bookmark><p><bookmark mark="code_3102-3124"></bookmark></p>
+<bookmark mark="h4_3126-3159"></bookmark><p>Code Blocks (Indented style)</p>
+<bookmark mark="p_3161-3213"></bookmark><p>Indented 4 spaces, like <bookmark mark="code_3185-3192"></bookmark> (Preformatted Text).</p>
+<bookmark mark="pre_3215-3260"></bookmark>
+<bookmark mark="p_3262-3294"></bookmark><p>Code Blocks (Preformatted text):</p>
+<bookmark mark="pre_3296-3447"></bookmark>
+<bookmark mark="h4_3449-3464"></bookmark><p>Javascript</p>
+<bookmark mark="pre_3466-4014"></bookmark>
+<bookmark mark="h4_4016-4030"></bookmark><p>HTML code</p>
+<bookmark mark="pre_4032-4199"></bookmark>
+<bookmark mark="h3_4201-4211"></bookmark><p>Images</p>
+<bookmark mark="p_4213-4219"></bookmark><p>Image:</p>
+<bookmark mark="p_4221-4282"></bookmark><p>
+  <bookmark mark="img_4221-4282"></bookmark>
 </p>
-<bookmark mark="blockquote_4292-4312"></bookmark><p>
-  <bookmark mark="p_4294-4312"></bookmark><p>Follow your heart.</p>
+<bookmark mark="blockquote_4284-4304"></bookmark><p>
+  <bookmark mark="p_4286-4304"></bookmark><p>Follow your heart.</p>
 </p>
-<bookmark mark="p_4314-4375"></bookmark><p>
-  <bookmark mark="img_4314-4375"></bookmark>
+<bookmark mark="p_4306-4367"></bookmark><p>
+  <bookmark mark="img_4306-4367"></bookmark>
 </p>
-<bookmark mark="blockquote_4377-4395"></bookmark><p>
-  <bookmark mark="p_4379-4395"></bookmark><p>图为：厦门白城沙滩 Xiamen</p>
+<bookmark mark="blockquote_4369-4387"></bookmark><p>
+  <bookmark mark="p_4371-4387"></bookmark><p>图为：厦门白城沙滩 Xiamen</p>
 </p>
-<bookmark mark="p_4397-4418"></bookmark><p>图片加链接 (Image + Link)：</p>
-<bookmark mark="p_4420-4558"></bookmark><p><bookmark mark="a_4420-4558"></bookmark><s><bookmark mark="img_4421-4482"></bookmark></s></p>
-<bookmark mark="blockquote_4560-4579"></bookmark><p>
-  <bookmark mark="p_4562-4579"></bookmark><p>图为：李健首张专辑《似水流年》封面</p>
+<bookmark mark="p_4389-4410"></bookmark><p>图片加链接 (Image + Link)：</p>
+<bookmark mark="p_4412-4550"></bookmark><p><bookmark mark="a_4412-4550"></bookmark><s><bookmark mark="img_4413-4474"></bookmark></s></p>
+<bookmark mark="blockquote_4552-4571"></bookmark><p>
+  <bookmark mark="p_4554-4571"></bookmark><p>图为：李健首张专辑《似水流年》封面</p>
 </p>
-<bookmark mark="hr_4581-4584"></bookmark><p></p>
-<bookmark mark="h3_4586-4595"></bookmark><p>Lists</p>
-<bookmark mark="h4_4597-4620"></bookmark><p>Unordered list (-)</p>
-<bookmark mark="ul_4622-4648"></bookmark><p>
-  <bookmark mark="li_4622-4630"></bookmark><p>Item A</p>
-  <bookmark mark="li_4631-4639"></bookmark><p>Item B</p>
-  <bookmark mark="li_4640-4648"></bookmark><p>Item C</p>
+<bookmark mark="hr_4573-4576"></bookmark><p></p>
+<bookmark mark="h3_4578-4587"></bookmark><p>Lists</p>
+<bookmark mark="h4_4589-4612"></bookmark><p>Unordered list (-)</p>
+<bookmark mark="ul_4614-4640"></bookmark><p>
+  <bookmark mark="li_4614-4622"></bookmark><p>Item A</p>
+  <bookmark mark="li_4623-4631"></bookmark><p>Item B</p>
+  <bookmark mark="li_4632-4640"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="h4_4650-4674"></bookmark><p>Unordered list (*)</p>
-<bookmark mark="ul_4676-4702"></bookmark><p>
-  <bookmark mark="li_4676-4684"></bookmark><p>Item A</p>
-  <bookmark mark="li_4685-4693"></bookmark><p>Item B</p>
-  <bookmark mark="li_4694-4702"></bookmark><p>Item C</p>
+<bookmark mark="h4_4642-4666"></bookmark><p>Unordered list (*)</p>
+<bookmark mark="ul_4668-4694"></bookmark><p>
+  <bookmark mark="li_4668-4676"></bookmark><p>Item A</p>
+  <bookmark mark="li_4677-4685"></bookmark><p>Item B</p>
+  <bookmark mark="li_4686-4694"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="h4_4704-4746"></bookmark><p>Unordered list (plus sign and nested)</p>
-<bookmark mark="ul_4748-4852"></bookmark><p>
-  <bookmark mark="li_4748-4756"></bookmark><p>Item A</p>
-  <bookmark mark="li_4757-4804"></bookmark><p>Item B
-    <bookmark mark="ul_4768-4804"></bookmark><p>
-      <bookmark mark="li_4768-4778"></bookmark><p>Item B 1</p>
-      <bookmark mark="li_4781-4791"></bookmark><p>Item B 2</p>
-      <bookmark mark="li_4794-4804"></bookmark><p>Item B 3</p>
+<bookmark mark="h4_4696-4738"></bookmark><p>Unordered list (plus sign and nested)</p>
+<bookmark mark="ul_4740-4844"></bookmark><p>
+  <bookmark mark="li_4740-4748"></bookmark><p>Item A</p>
+  <bookmark mark="li_4749-4796"></bookmark><p>Item B
+    <bookmark mark="ul_4760-4796"></bookmark><p>
+      <bookmark mark="li_4760-4770"></bookmark><p>Item B 1</p>
+      <bookmark mark="li_4773-4783"></bookmark><p>Item B 2</p>
+      <bookmark mark="li_4786-4796"></bookmark><p>Item B 3</p>
     </p>
   </p>
-  <bookmark mark="li_4805-4852"></bookmark><p>Item C
-    <bookmark mark="ul_4816-4852"></bookmark><p>
-      <bookmark mark="li_4816-4826"></bookmark><p>Item C 1</p>
-      <bookmark mark="li_4829-4839"></bookmark><p>Item C 2</p>
-      <bookmark mark="li_4842-4852"></bookmark><p>Item C 3</p>
+  <bookmark mark="li_4797-4844"></bookmark><p>Item C
+    <bookmark mark="ul_4808-4844"></bookmark><p>
+      <bookmark mark="li_4808-4818"></bookmark><p>Item C 1</p>
+      <bookmark mark="li_4821-4831"></bookmark><p>Item C 2</p>
+      <bookmark mark="li_4834-4844"></bookmark><p>Item C 3</p>
     </p>
   </p>
 </p>
-<bookmark mark="h4_4854-4871"></bookmark><p>Ordered list</p>
-<bookmark mark="ol_4873-4902"></bookmark><p>
-  <bookmark mark="li_4873-4882"></bookmark><p>Item A</p>
-  <bookmark mark="li_4883-4892"></bookmark><p>Item B</p>
-  <bookmark mark="li_4893-4902"></bookmark><p>Item C</p>
+<bookmark mark="h4_4846-4863"></bookmark><p>Ordered list</p>
+<bookmark mark="ol_4865-4894"></bookmark><p>
+  <bookmark mark="li_4865-4874"></bookmark><p>Item A</p>
+  <bookmark mark="li_4875-4884"></bookmark><p>Item B</p>
+  <bookmark mark="li_4885-4894"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="hr_4904-4907"></bookmark><p></p>
-<bookmark mark="h3_4909-4919"></bookmark><p>Tables</p>
+<bookmark mark="hr_4896-4899"></bookmark><p></p>
+<bookmark mark="h3_4901-4911"></bookmark><p>Tables</p>
 
   
     
@@ -165,7 +164,7 @@
       
     
   
-<bookmark mark="table_4921-5052"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
+<bookmark mark="table_4913-5044"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
 
   
     
@@ -183,7 +182,7 @@
       
     
   
-<bookmark mark="table_5054-5185"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
+<bookmark mark="table_5046-5177"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
 
   
     
@@ -201,7 +200,7 @@
       
     
   
-<bookmark mark="table_5187-5374"></bookmark><p><thead><tr><th>Function name</th><th>Description</th></tr></thead><tbody><tr><td><bookmark mark="code_5283-5291"></bookmark></td><td>Display the help window.</td></tr><tr><td><bookmark mark="code_5330-5341"></bookmark></td><td><bookmark mark="strong_5346-5372"></bookmark><s>Destroy your computer!</s></td></tr></tbody></p>
+<bookmark mark="table_5179-5366"></bookmark><p><thead><tr><th>Function name</th><th>Description</th></tr></thead><tbody><tr><td><bookmark mark="code_5275-5283"></bookmark></td><td>Display the help window.</td></tr><tr><td><bookmark mark="code_5322-5333"></bookmark></td><td><bookmark mark="strong_5338-5364"></bookmark><s>Destroy your computer!</s></td></tr></tbody></p>
 
   
     
@@ -223,7 +222,7 @@
       
     
   
-<bookmark mark="table_5376-5480"></bookmark><p><thead><tr><th>Item</th><th align="right">Value</th></tr></thead><tbody><tr><td>Computer</td><td align="right">$1600</td></tr><tr><td>Phone</td><td align="right">$12</td></tr><tr><td>Pipe</td><td align="right">$1</td></tr></tbody></p>
+<bookmark mark="table_5368-5472"></bookmark><p><thead><tr><th>Item</th><th align="right">Value</th></tr></thead><tbody><tr><td>Computer</td><td align="right">$1600</td></tr><tr><td>Phone</td><td align="right">$12</td></tr><tr><td>Pipe</td><td align="right">$1</td></tr></tbody></p>
 
   
     
@@ -249,64 +248,64 @@
       
     
   
-<bookmark mark="table_5482-5741"></bookmark><p><thead><tr><th align="left">Left-Aligned</th><th align="center">Center Aligned</th><th align="right">Right Aligned</th></tr></thead><tbody><tr><td align="left">col 3 is</td><td align="center">some wordy text</td><td align="right">$1600</td></tr><tr><td align="left">col 2 is</td><td align="center">centered</td><td align="right">$12</td></tr><tr><td align="left">zebra stripes</td><td align="center">are neat</td><td align="right">$1</td></tr></tbody></p>
-<bookmark mark="hr_5743-5746"></bookmark><p></p>
-<bookmark mark="h4_5748-5766"></bookmark><p>HTML entities</p>
-<bookmark mark="p_5768-5897"></bookmark><p>
+<bookmark mark="table_5474-5733"></bookmark><p><thead><tr><th align="left">Left-Aligned</th><th align="center">Center Aligned</th><th align="right">Right Aligned</th></tr></thead><tbody><tr><td align="left">col 3 is</td><td align="center">some wordy text</td><td align="right">$1600</td></tr><tr><td align="left">col 2 is</td><td align="center">centered</td><td align="right">$12</td></tr><tr><td align="left">zebra stripes</td><td align="center">are neat</td><td align="right">$1</td></tr></tbody></p>
+<bookmark mark="hr_5735-5738"></bookmark><p></p>
+<bookmark mark="h4_5740-5758"></bookmark><p>HTML entities</p>
+<bookmark mark="p_5760-5889"></bookmark><p>
   © &#x26; ¨ ™ ¡ £
   &#x26; &#x3C; > ¥ € ® ± ¶ § ¦ ¯ « ·
 </p>
-<bookmark mark="p_5899-5957"></bookmark><p>X² Y³ ¾ ¼ × ÷ »</p>
-<bookmark mark="p_5959-5982"></bookmark><p>18ºC " '</p>
-<bookmark mark="h2_5984-6018"></bookmark><p>Escaping for Special Characters</p>
-<bookmark mark="p_6020-6041"></bookmark><p>*literal asterisks*</p>
-<bookmark mark="h2_6043-6061"></bookmark><p>Markdown extras</p>
-<bookmark mark="h3_6063-6080"></bookmark><p>GFM task list</p>
-<bookmark mark="ul_6082-6299"></bookmark><p>
-  <bookmark mark="li_6082-6103"></bookmark><p> GFM task list 1</p>
-  <bookmark mark="li_6104-6125"></bookmark><p> GFM task list 2</p>
-  <bookmark mark="li_6126-6225"></bookmark><p> GFM task list 3
-    <bookmark mark="ul_6150-6225"></bookmark><p>
-      <bookmark mark="li_6150-6173"></bookmark><p> GFM task list 3-1</p>
-      <bookmark mark="li_6176-6199"></bookmark><p> GFM task list 3-2</p>
-      <bookmark mark="li_6202-6225"></bookmark><p> GFM task list 3-3</p>
+<bookmark mark="p_5891-5949"></bookmark><p>X² Y³ ¾ ¼ × ÷ »</p>
+<bookmark mark="p_5951-5974"></bookmark><p>18ºC " '</p>
+<bookmark mark="h2_5976-6010"></bookmark><p>Escaping for Special Characters</p>
+<bookmark mark="p_6012-6033"></bookmark><p>*literal asterisks*</p>
+<bookmark mark="h2_6035-6053"></bookmark><p>Markdown extras</p>
+<bookmark mark="h3_6055-6072"></bookmark><p>GFM task list</p>
+<bookmark mark="ul_6074-6291"></bookmark><p>
+  <bookmark mark="li_6074-6095"></bookmark><p> GFM task list 1</p>
+  <bookmark mark="li_6096-6117"></bookmark><p> GFM task list 2</p>
+  <bookmark mark="li_6118-6217"></bookmark><p> GFM task list 3
+    <bookmark mark="ul_6142-6217"></bookmark><p>
+      <bookmark mark="li_6142-6165"></bookmark><p> GFM task list 3-1</p>
+      <bookmark mark="li_6168-6191"></bookmark><p> GFM task list 3-2</p>
+      <bookmark mark="li_6194-6217"></bookmark><p> GFM task list 3-3</p>
     </p>
   </p>
-  <bookmark mark="li_6226-6299"></bookmark><p> GFM task list 4
-    <bookmark mark="ul_6250-6299"></bookmark><p>
-      <bookmark mark="li_6250-6273"></bookmark><p> GFM task list 4-1</p>
-      <bookmark mark="li_6276-6299"></bookmark><p> GFM task list 4-2</p>
-    </p>
-  </p>
-</p>
-<bookmark mark="h3_6301-6325"></bookmark><p>Emoji mixed :smiley:</p>
-<bookmark mark="blockquote_6327-6347"></bookmark><p>
-  <bookmark mark="p_6329-6347"></bookmark><p>Blockquotes :star:</p>
-</p>
-<bookmark mark="h4_6349-6442"></bookmark><p>GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</p>
-<bookmark mark="ul_6444-6987"></bookmark><p>
-  <bookmark mark="li_6444-6559"></bookmark><p> :smiley: @mentions, :smiley: #refs, <bookmark mark="a_6486-6495"></bookmark><s>links</s>, <bookmark mark="strong_6497-6511"></bookmark><s>formatting</s>, and <s>tags</s> supported :editormd-logo:;</p>
-  <bookmark mark="li_6560-6648"></bookmark><p> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</p>
-  <bookmark mark="li_6649-6701"></bookmark><p> [ ] :smiley: this is a complete item :smiley:;</p>
-  <bookmark mark="li_6702-6770"></bookmark><p> []this is an incomplete item <bookmark mark="a_6737-6751"></bookmark><s>test link</s> :fa-star: @pandao;</p>
-  <bookmark mark="li_6771-6987"></bookmark><p> [ ]this is an incomplete item :fa-star: :fa-gear:;
-    <bookmark mark="ul_6830-6987"></bookmark><p>
-      <bookmark mark="li_6830-6907"></bookmark><p> :smiley: this is an incomplete item <bookmark mark="a_6872-6886"></bookmark><s>test link</s> :fa-star: :fa-gear:;</p>
-      <bookmark mark="li_6910-6987"></bookmark><p> :smiley: this is :fa-star: :fa-gear: an incomplete item <bookmark mark="a_6972-6986"></bookmark><s>test link</s>;</p>
+  <bookmark mark="li_6218-6291"></bookmark><p> GFM task list 4
+    <bookmark mark="ul_6242-6291"></bookmark><p>
+      <bookmark mark="li_6242-6265"></bookmark><p> GFM task list 4-1</p>
+      <bookmark mark="li_6268-6291"></bookmark><p> GFM task list 4-2</p>
     </p>
   </p>
 </p>
-<bookmark mark="h3_6989-7003"></bookmark><p>TeX(LaTeX)</p>
-<bookmark mark="p_7005-7015"></bookmark><p>$$E=mc^2$$</p>
-<bookmark mark="p_7017-7067"></bookmark><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p>
-<bookmark mark="p_7069-7096"></bookmark><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p>
-<bookmark mark="p_7098-7153"></bookmark><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p>
-<bookmark mark="h3_7155-7168"></bookmark><p>FlowChart</p>
-<bookmark mark="pre_7170-7325"></bookmark>
-<bookmark mark="h3_7327-7347"></bookmark><p>Sequence Diagram</p>
-<bookmark mark="pre_7349-7492"></bookmark>
-<bookmark mark="h3_7494-7501"></bookmark><p>End</p>
-<bookmark mark="h3_7504-7516"></bookmark><p>Comments</p><p></p>
+<bookmark mark="h3_6293-6317"></bookmark><p>Emoji mixed :smiley:</p>
+<bookmark mark="blockquote_6319-6339"></bookmark><p>
+  <bookmark mark="p_6321-6339"></bookmark><p>Blockquotes :star:</p>
+</p>
+<bookmark mark="h4_6341-6434"></bookmark><p>GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</p>
+<bookmark mark="ul_6436-6979"></bookmark><p>
+  <bookmark mark="li_6436-6551"></bookmark><p> :smiley: @mentions, :smiley: #refs, <bookmark mark="a_6478-6487"></bookmark><s>links</s>, <bookmark mark="strong_6489-6503"></bookmark><s>formatting</s>, and <s>tags</s> supported :editormd-logo:;</p>
+  <bookmark mark="li_6552-6640"></bookmark><p> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</p>
+  <bookmark mark="li_6641-6693"></bookmark><p> [ ] :smiley: this is a complete item :smiley:;</p>
+  <bookmark mark="li_6694-6762"></bookmark><p> []this is an incomplete item <bookmark mark="a_6729-6743"></bookmark><s>test link</s> :fa-star: @pandao;</p>
+  <bookmark mark="li_6763-6979"></bookmark><p> [ ]this is an incomplete item :fa-star: :fa-gear:;
+    <bookmark mark="ul_6822-6979"></bookmark><p>
+      <bookmark mark="li_6822-6899"></bookmark><p> :smiley: this is an incomplete item <bookmark mark="a_6864-6878"></bookmark><s>test link</s> :fa-star: :fa-gear:;</p>
+      <bookmark mark="li_6902-6979"></bookmark><p> :smiley: this is :fa-star: :fa-gear: an incomplete item <bookmark mark="a_6964-6978"></bookmark><s>test link</s>;</p>
+    </p>
+  </p>
+</p>
+<bookmark mark="h3_6981-6995"></bookmark><p>TeX(LaTeX)</p>
+<bookmark mark="p_6997-7007"></bookmark><p>$$E=mc^2$$</p>
+<bookmark mark="p_7009-7059"></bookmark><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p>
+<bookmark mark="p_7061-7088"></bookmark><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p>
+<bookmark mark="p_7090-7145"></bookmark><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p>
+<bookmark mark="h3_7147-7160"></bookmark><p>FlowChart</p>
+<bookmark mark="pre_7162-7317"></bookmark>
+<bookmark mark="h3_7319-7339"></bookmark><p>Sequence Diagram</p>
+<bookmark mark="pre_7341-7484"></bookmark>
+<bookmark mark="h3_7486-7493"></bookmark><p>End</p>
+<bookmark mark="h3_7496-7508"></bookmark><p>Comments</p><p></p>
 <p><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
 <s>Italic</s> <s>Italic</s>
 <s>Emphasis</s> <s>Emphasis</s>

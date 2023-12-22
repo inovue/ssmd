@@ -3,8 +3,6 @@ import type { Root, Node } from 'mdast';
 import type { ContainerDirective, LeafDirective, TextDirective } from 'mdast-util-directive';
 import { Plugin } from "unified";
 
-export type Directive = ContainerDirective | LeafDirective | TextDirective;
-
 export const isContainerDirective = (node:Node):boolean => node.type === 'containerDirective';
 export const isLeafDirective = (node:Node):boolean => node.type === 'leafDirective';
 export const isTextDirective = (node:Node):boolean => node.type === 'textDirective';
