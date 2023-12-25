@@ -1,152 +1,156 @@
 
-<bookmark mark="h2_0-7"></bookmark><p>SSMD</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">SSMD</emphasis>
 <voice xmlns="http://www.w3.org/1999/xhtml" name="salah" effect="whisper">
   <break time="500"></break>
   <lexicon uri="https://example.com/lexicon.xml"></lexicon>
   <bookmark mark="bye"></bookmark>
-  <bookmark mark="p_104-116"></bookmark><p><bookmark mark="strong_104-116"></bookmark><s>hogehoge</s></p>
-  <bookmark mark="h1_118-137"></bookmark><p>This is Heading 1</p>
-  <bookmark mark="h3_138-159"></bookmark><p>This is Heading 3</p>
-  <lang xml:lang="en">Hello world</lang><bookmark mark="sub_190-231"></bookmark><s>W3C</s>
+  <bookmark mark="p_104-142"></bookmark><p>
+    <emphasis level="1">hogehoge</emphasis>
+    <emphasis level="2">hogehoge</emphasis>
+    <emphasis level="1"><emphasis level="3">hogehoge</emphasis></emphasis>
+  </p>
+  <emphasis level="6">This is Heading 1</emphasis>
+  <emphasis level="4">This is Heading 3</emphasis>
+  <lang xml:lang="en">Hello world</lang><bookmark mark="sub_216-257"></bookmark><s>W3C</s>
   <say-as interpret-as="date" format="yyyymmdd">20231231</say-as>
 </voice>
-<bookmark mark="h3_275-287"></bookmark><p>Features</p>
-<bookmark mark="p_289-315"></bookmark><p>This is <bookmark mark="del_297-307"></bookmark><s>strike</s> strike.</p>
-<bookmark mark="ul_317-1040"></bookmark><p>
-  <bookmark mark="li_317-392"></bookmark><p>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</p>
-  <bookmark mark="li_393-615"></bookmark><p>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</p>
-  <bookmark mark="li_616-698"></bookmark><p>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</p>
-  <bookmark mark="li_699-773"></bookmark><p>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</p>
-  <bookmark mark="li_774-840"></bookmark><p>Support identification, interpretation, fliter of the HTML tags;</p>
-  <bookmark mark="li_841-951"></bookmark><p>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</p>
-  <bookmark mark="li_952-1040"></bookmark><p>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Features</emphasis>
+<bookmark mark="p_315-341"></bookmark><p>This is <bookmark mark="del_323-333"></bookmark><s>strike</s> strike.</p>
+<bookmark mark="ul_343-1066"></bookmark><p>
+  <bookmark mark="li_343-418"></bookmark><p>Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);</p>
+  <bookmark mark="li_419-641"></bookmark><p>Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;</p>
+  <bookmark mark="li_642-724"></bookmark><p>Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;</p>
+  <bookmark mark="li_725-799"></bookmark><p>Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;</p>
+  <bookmark mark="li_800-866"></bookmark><p>Support identification, interpretation, fliter of the HTML tags;</p>
+  <bookmark mark="li_867-977"></bookmark><p>Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;</p>
+  <bookmark mark="li_978-1066"></bookmark><p>Support AMD/CMD (Require.js &#x26; Sea.js) Module Loader, and Custom/define editor plugins;</p>
 </p>
-<bookmark mark="h1_1042-1053"></bookmark><p>Editor.md</p>
-<bookmark mark="p_1055-1133"></bookmark><p>
-  <bookmark mark="img_1055-1133"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="6">Editor.md</emphasis>
+<bookmark mark="p_1081-1159"></bookmark><p>
+  <bookmark mark="img_1081-1159"></bookmark>
 </p>
-<bookmark mark="p_1135-1495"></bookmark><p>
-  <bookmark mark="img_1135-1196"></bookmark>
-  <bookmark mark="img_1197-1258"></bookmark>
-  <bookmark mark="img_1259-1318"></bookmark>
-  <bookmark mark="img_1319-1382"></bookmark>
-  <bookmark mark="img_1383-1445"></bookmark>
-  <bookmark mark="img_1446-1495"></bookmark>
+<bookmark mark="p_1161-1521"></bookmark><p>
+  <bookmark mark="img_1161-1222"></bookmark>
+  <bookmark mark="img_1223-1284"></bookmark>
+  <bookmark mark="img_1285-1344"></bookmark>
+  <bookmark mark="img_1345-1408"></bookmark>
+  <bookmark mark="img_1409-1471"></bookmark>
+  <bookmark mark="img_1472-1521"></bookmark>
 </p>
-<bookmark mark="p_1497-1518"></bookmark><p><bookmark mark="strong_1497-1518"></bookmark><s>Table of Contents</s></p>
-<bookmark mark="p_1520-1526"></bookmark><p>[TOCM]</p>
-<bookmark mark="p_1528-1533"></bookmark><p>[TOC]</p>
-<bookmark mark="h1_1535-1546"></bookmark><p>H1 header</p>
-<bookmark mark="h2_1547-1559"></bookmark><p>H2 header</p>
-<bookmark mark="h3_1560-1573"></bookmark><p>H3 header</p>
-<bookmark mark="h4_1574-1588"></bookmark><p>H4 header</p>
-<bookmark mark="h5_1589-1604"></bookmark><p>H5 header</p>
-<bookmark mark="h6_1605-1621"></bookmark><p>H6 header</p>
-<bookmark mark="h1_1622-1705"></bookmark><p>Heading 1 link <bookmark mark="a_1639-1705"></bookmark><s>Heading link</s></p>
-<bookmark mark="h2_1706-1790"></bookmark><p>Heading 2 link <bookmark mark="a_1724-1790"></bookmark><s>Heading link</s></p>
-<bookmark mark="h3_1791-1876"></bookmark><p>Heading 3 link <bookmark mark="a_1810-1876"></bookmark><s>Heading link</s></p>
-<bookmark mark="h4_1877-2043"></bookmark><p>Heading 4 link <bookmark mark="a_1897-1963"></bookmark><s>Heading link</s> Heading link <bookmark mark="a_1977-2043"></bookmark><s>Heading link</s></p>
-<bookmark mark="h5_2044-2131"></bookmark><p>Heading 5 link <bookmark mark="a_2065-2131"></bookmark><s>Heading link</s></p>
-<bookmark mark="h6_2132-2220"></bookmark><p>Heading 6 link <bookmark mark="a_2154-2220"></bookmark><s>Heading link</s></p>
-<bookmark mark="h2_2222-2244"></bookmark><p>Headers (Underline)</p>
-<bookmark mark="h1_2246-2269"></bookmark><p>H1 Header (Underline)</p>
-<bookmark mark="h2_2271-2295"></bookmark><p>H2 Header (Underline)</p>
-<bookmark mark="h3_2297-2311"></bookmark><p>Characters</p>
-<bookmark mark="hr_2313-2316"></bookmark><p></p>
-<bookmark mark="p_2318-2475"></bookmark><p>
-  <bookmark mark="del_2318-2335"></bookmark><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
-  <bookmark mark="em_2388-2396"></bookmark><s>Italic</s> <bookmark mark="em_2397-2405"></bookmark><s>Italic</s>
-  <bookmark mark="strong_2406-2418"></bookmark><s>Emphasis</s> <bookmark mark="strong_2419-2431"></bookmark><s>Emphasis</s>
-  <bookmark mark="strong_2432-2453"></bookmark><s><bookmark mark="em_2434-2451"></bookmark><s>Emphasis Italic</s></s> <bookmark mark="strong_2454-2475"></bookmark><s><bookmark mark="em_2456-2473"></bookmark><s>Emphasis Italic</s></s>
+<bookmark mark="p_1523-1544"></bookmark><p><emphasis level="2">Table of Contents</emphasis></p>
+<bookmark mark="p_1546-1552"></bookmark><p>[TOCM]</p>
+<bookmark mark="p_1554-1559"></bookmark><p>[TOC]</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="6">H1 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">H2 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">H3 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">H4 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="2">H5 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="1">H6 header</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="6">Heading 1 link <bookmark mark="a_1665-1731"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">Heading 2 link <bookmark mark="a_1750-1816"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Heading 3 link <bookmark mark="a_1836-1902"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Heading 4 link <bookmark mark="a_1923-1989"></bookmark><s>Heading link</s> Heading link <bookmark mark="a_2003-2069"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="2">Heading 5 link <bookmark mark="a_2091-2157"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="1">Heading 6 link <bookmark mark="a_2180-2246"></bookmark><s>Heading link</s></emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">Headers (Underline)</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="6">H1 Header (Underline)</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">H2 Header (Underline)</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Characters</emphasis>
+<bookmark mark="hr_2339-2342"></bookmark><p></p>
+<bookmark mark="p_2344-2501"></bookmark><p>
+  <bookmark mark="del_2344-2361"></bookmark><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
+  <emphasis level="1">Italic</emphasis> <emphasis level="1">Italic</emphasis>
+  <emphasis level="2">Emphasis</emphasis> <emphasis level="2">Emphasis</emphasis>
+  <emphasis level="2"><emphasis level="1">Emphasis Italic</emphasis></emphasis> <emphasis level="2"><emphasis level="1">Emphasis Italic</emphasis></emphasis>
 </p>
-<bookmark mark="p_2477-2528"></bookmark><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p>
-<bookmark mark="p_2530-2566"></bookmark><p><bookmark mark="strong_2530-2566"></bookmark><s>Abbreviation(link HTML abbr tag)</s></p>
-<bookmark mark="p_2568-2711"></bookmark><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p>
-<bookmark mark="h3_2713-2728"></bookmark><p>Blockquotes</p>
-<bookmark mark="blockquote_2730-2743"></bookmark><p>
-  <bookmark mark="p_2732-2743"></bookmark><p>Blockquotes</p>
+<bookmark mark="p_2503-2554"></bookmark><p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p>
+<bookmark mark="p_2556-2592"></bookmark><p><emphasis level="2">Abbreviation(link HTML abbr tag)</emphasis></p>
+<bookmark mark="p_2594-2737"></bookmark><p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Blockquotes</emphasis>
+<bookmark mark="blockquote_2756-2769"></bookmark><p>
+  <bookmark mark="p_2758-2769"></bookmark><p>Blockquotes</p>
 </p>
-<bookmark mark="p_2745-2771"></bookmark><p>Paragraphs and Line Breaks</p>
-<bookmark mark="blockquote_2773-2828"></bookmark><p>
-  <bookmark mark="p_2775-2828"></bookmark><p>"Blockquotes Blockquotes", <bookmark mark="a_2802-2827"></bookmark><s>Link</s>。</p>
+<bookmark mark="p_2771-2797"></bookmark><p>Paragraphs and Line Breaks</p>
+<bookmark mark="blockquote_2799-2854"></bookmark><p>
+  <bookmark mark="p_2801-2854"></bookmark><p>"Blockquotes Blockquotes", <bookmark mark="a_2828-2853"></bookmark><s>Link</s>。</p>
 </p>
-<bookmark mark="h3_2830-2839"></bookmark><p>Links</p>
-<bookmark mark="p_2841-2867"></bookmark><p><bookmark mark="a_2841-2867"></bookmark><s>Links</s></p>
-<bookmark mark="p_2869-2919"></bookmark><p><bookmark mark="a_2869-2919"></bookmark><s>Links with title</s></p>
-<bookmark mark="p_2921-2952"></bookmark><p><bookmark mark="code_2921-2929"></bookmark> : <bookmark mark="a_2932-2952"></bookmark><s>https://github.com</s></p>
-<bookmark mark="p_2954-2979"></bookmark><p><bookmark mark="a_2954-2979"></bookmark><s>Reference link</s></p>
-<bookmark mark="p_3010-3033"></bookmark><p>GFM a-tail link @pandao</p>
-<bookmark mark="h3_3035-3082"></bookmark><p>Code Blocks (multi-language) &#x26; highlighting</p>
-<bookmark mark="h4_3084-3100"></bookmark><p>Inline code</p>
-<bookmark mark="p_3102-3124"></bookmark><p><bookmark mark="code_3102-3124"></bookmark></p>
-<bookmark mark="h4_3126-3159"></bookmark><p>Code Blocks (Indented style)</p>
-<bookmark mark="p_3161-3213"></bookmark><p>Indented 4 spaces, like <bookmark mark="code_3185-3192"></bookmark> (Preformatted Text).</p>
-<bookmark mark="pre_3215-3260"></bookmark>
-<bookmark mark="p_3262-3294"></bookmark><p>Code Blocks (Preformatted text):</p>
-<bookmark mark="pre_3296-3447"></bookmark>
-<bookmark mark="h4_3449-3464"></bookmark><p>Javascript</p>
-<bookmark mark="pre_3466-4014"></bookmark>
-<bookmark mark="h4_4016-4030"></bookmark><p>HTML code</p>
-<bookmark mark="pre_4032-4199"></bookmark>
-<bookmark mark="h3_4201-4211"></bookmark><p>Images</p>
-<bookmark mark="p_4213-4219"></bookmark><p>Image:</p>
-<bookmark mark="p_4221-4282"></bookmark><p>
-  <bookmark mark="img_4221-4282"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Links</emphasis>
+<bookmark mark="p_2867-2893"></bookmark><p><bookmark mark="a_2867-2893"></bookmark><s>Links</s></p>
+<bookmark mark="p_2895-2945"></bookmark><p><bookmark mark="a_2895-2945"></bookmark><s>Links with title</s></p>
+<bookmark mark="p_2947-2978"></bookmark><p><bookmark mark="code_2947-2955"></bookmark> : <bookmark mark="a_2958-2978"></bookmark><s>https://github.com</s></p>
+<bookmark mark="p_2980-3005"></bookmark><p><bookmark mark="a_2980-3005"></bookmark><s>Reference link</s></p>
+<bookmark mark="p_3036-3059"></bookmark><p>GFM a-tail link @pandao</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Code Blocks (multi-language) &#x26; highlighting</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Inline code</emphasis>
+<bookmark mark="p_3128-3150"></bookmark><p><bookmark mark="code_3128-3150"></bookmark></p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Code Blocks (Indented style)</emphasis>
+<bookmark mark="p_3187-3239"></bookmark><p>Indented 4 spaces, like <bookmark mark="code_3211-3218"></bookmark> (Preformatted Text).</p>
+<bookmark mark="pre_3241-3286"></bookmark>
+<bookmark mark="p_3288-3320"></bookmark><p>Code Blocks (Preformatted text):</p>
+<bookmark mark="pre_3322-3473"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Javascript</emphasis>
+<bookmark mark="pre_3492-4040"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">HTML code</emphasis>
+<bookmark mark="pre_4058-4225"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Images</emphasis>
+<bookmark mark="p_4239-4245"></bookmark><p>Image:</p>
+<bookmark mark="p_4247-4308"></bookmark><p>
+  <bookmark mark="img_4247-4308"></bookmark>
 </p>
-<bookmark mark="blockquote_4284-4304"></bookmark><p>
-  <bookmark mark="p_4286-4304"></bookmark><p>Follow your heart.</p>
+<bookmark mark="blockquote_4310-4330"></bookmark><p>
+  <bookmark mark="p_4312-4330"></bookmark><p>Follow your heart.</p>
 </p>
-<bookmark mark="p_4306-4367"></bookmark><p>
-  <bookmark mark="img_4306-4367"></bookmark>
+<bookmark mark="p_4332-4393"></bookmark><p>
+  <bookmark mark="img_4332-4393"></bookmark>
 </p>
-<bookmark mark="blockquote_4369-4387"></bookmark><p>
-  <bookmark mark="p_4371-4387"></bookmark><p>图为：厦门白城沙滩 Xiamen</p>
+<bookmark mark="blockquote_4395-4413"></bookmark><p>
+  <bookmark mark="p_4397-4413"></bookmark><p>图为：厦门白城沙滩 Xiamen</p>
 </p>
-<bookmark mark="p_4389-4410"></bookmark><p>图片加链接 (Image + Link)：</p>
-<bookmark mark="p_4412-4550"></bookmark><p><bookmark mark="a_4412-4550"></bookmark><s><bookmark mark="img_4413-4474"></bookmark></s></p>
-<bookmark mark="blockquote_4552-4571"></bookmark><p>
-  <bookmark mark="p_4554-4571"></bookmark><p>图为：李健首张专辑《似水流年》封面</p>
+<bookmark mark="p_4415-4436"></bookmark><p>图片加链接 (Image + Link)：</p>
+<bookmark mark="p_4438-4576"></bookmark><p><bookmark mark="a_4438-4576"></bookmark><s><bookmark mark="img_4439-4500"></bookmark></s></p>
+<bookmark mark="blockquote_4578-4597"></bookmark><p>
+  <bookmark mark="p_4580-4597"></bookmark><p>图为：李健首张专辑《似水流年》封面</p>
 </p>
-<bookmark mark="hr_4573-4576"></bookmark><p></p>
-<bookmark mark="h3_4578-4587"></bookmark><p>Lists</p>
-<bookmark mark="h4_4589-4612"></bookmark><p>Unordered list (-)</p>
-<bookmark mark="ul_4614-4640"></bookmark><p>
-  <bookmark mark="li_4614-4622"></bookmark><p>Item A</p>
-  <bookmark mark="li_4623-4631"></bookmark><p>Item B</p>
-  <bookmark mark="li_4632-4640"></bookmark><p>Item C</p>
+<bookmark mark="hr_4599-4602"></bookmark><p></p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Lists</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Unordered list (-)</emphasis>
+<bookmark mark="ul_4640-4666"></bookmark><p>
+  <bookmark mark="li_4640-4648"></bookmark><p>Item A</p>
+  <bookmark mark="li_4649-4657"></bookmark><p>Item B</p>
+  <bookmark mark="li_4658-4666"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="h4_4642-4666"></bookmark><p>Unordered list (*)</p>
-<bookmark mark="ul_4668-4694"></bookmark><p>
-  <bookmark mark="li_4668-4676"></bookmark><p>Item A</p>
-  <bookmark mark="li_4677-4685"></bookmark><p>Item B</p>
-  <bookmark mark="li_4686-4694"></bookmark><p>Item C</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Unordered list (*)</emphasis>
+<bookmark mark="ul_4694-4720"></bookmark><p>
+  <bookmark mark="li_4694-4702"></bookmark><p>Item A</p>
+  <bookmark mark="li_4703-4711"></bookmark><p>Item B</p>
+  <bookmark mark="li_4712-4720"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="h4_4696-4738"></bookmark><p>Unordered list (plus sign and nested)</p>
-<bookmark mark="ul_4740-4844"></bookmark><p>
-  <bookmark mark="li_4740-4748"></bookmark><p>Item A</p>
-  <bookmark mark="li_4749-4796"></bookmark><p>Item B
-    <bookmark mark="ul_4760-4796"></bookmark><p>
-      <bookmark mark="li_4760-4770"></bookmark><p>Item B 1</p>
-      <bookmark mark="li_4773-4783"></bookmark><p>Item B 2</p>
-      <bookmark mark="li_4786-4796"></bookmark><p>Item B 3</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Unordered list (plus sign and nested)</emphasis>
+<bookmark mark="ul_4766-4870"></bookmark><p>
+  <bookmark mark="li_4766-4774"></bookmark><p>Item A</p>
+  <bookmark mark="li_4775-4822"></bookmark><p>Item B
+    <bookmark mark="ul_4786-4822"></bookmark><p>
+      <bookmark mark="li_4786-4796"></bookmark><p>Item B 1</p>
+      <bookmark mark="li_4799-4809"></bookmark><p>Item B 2</p>
+      <bookmark mark="li_4812-4822"></bookmark><p>Item B 3</p>
     </p>
   </p>
-  <bookmark mark="li_4797-4844"></bookmark><p>Item C
-    <bookmark mark="ul_4808-4844"></bookmark><p>
-      <bookmark mark="li_4808-4818"></bookmark><p>Item C 1</p>
-      <bookmark mark="li_4821-4831"></bookmark><p>Item C 2</p>
-      <bookmark mark="li_4834-4844"></bookmark><p>Item C 3</p>
+  <bookmark mark="li_4823-4870"></bookmark><p>Item C
+    <bookmark mark="ul_4834-4870"></bookmark><p>
+      <bookmark mark="li_4834-4844"></bookmark><p>Item C 1</p>
+      <bookmark mark="li_4847-4857"></bookmark><p>Item C 2</p>
+      <bookmark mark="li_4860-4870"></bookmark><p>Item C 3</p>
     </p>
   </p>
 </p>
-<bookmark mark="h4_4846-4863"></bookmark><p>Ordered list</p>
-<bookmark mark="ol_4865-4894"></bookmark><p>
-  <bookmark mark="li_4865-4874"></bookmark><p>Item A</p>
-  <bookmark mark="li_4875-4884"></bookmark><p>Item B</p>
-  <bookmark mark="li_4885-4894"></bookmark><p>Item C</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">Ordered list</emphasis>
+<bookmark mark="ol_4891-4920"></bookmark><p>
+  <bookmark mark="li_4891-4900"></bookmark><p>Item A</p>
+  <bookmark mark="li_4901-4910"></bookmark><p>Item B</p>
+  <bookmark mark="li_4911-4920"></bookmark><p>Item C</p>
 </p>
-<bookmark mark="hr_4896-4899"></bookmark><p></p>
-<bookmark mark="h3_4901-4911"></bookmark><p>Tables</p>
+<bookmark mark="hr_4922-4925"></bookmark><p></p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Tables</emphasis>
 
   
     
@@ -164,7 +168,7 @@
       
     
   
-<bookmark mark="table_4913-5044"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
+<bookmark mark="table_4939-5070"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
 
   
     
@@ -182,7 +186,7 @@
       
     
   
-<bookmark mark="table_5046-5177"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
+<bookmark mark="table_5072-5203"></bookmark><p><thead><tr><th>First Header</th><th>Second Header</th></tr></thead><tbody><tr><td>Content Cell</td><td>Content Cell</td></tr><tr><td>Content Cell</td><td>Content Cell</td></tr></tbody></p>
 
   
     
@@ -200,7 +204,7 @@
       
     
   
-<bookmark mark="table_5179-5366"></bookmark><p><thead><tr><th>Function name</th><th>Description</th></tr></thead><tbody><tr><td><bookmark mark="code_5275-5283"></bookmark></td><td>Display the help window.</td></tr><tr><td><bookmark mark="code_5322-5333"></bookmark></td><td><bookmark mark="strong_5338-5364"></bookmark><s>Destroy your computer!</s></td></tr></tbody></p>
+<bookmark mark="table_5205-5392"></bookmark><p><thead><tr><th>Function name</th><th>Description</th></tr></thead><tbody><tr><td><bookmark mark="code_5301-5309"></bookmark></td><td>Display the help window.</td></tr><tr><td><bookmark mark="code_5348-5359"></bookmark></td><td><emphasis level="2">Destroy your computer!</emphasis></td></tr></tbody></p>
 
   
     
@@ -222,7 +226,7 @@
       
     
   
-<bookmark mark="table_5368-5472"></bookmark><p><thead><tr><th>Item</th><th align="right">Value</th></tr></thead><tbody><tr><td>Computer</td><td align="right">$1600</td></tr><tr><td>Phone</td><td align="right">$12</td></tr><tr><td>Pipe</td><td align="right">$1</td></tr></tbody></p>
+<bookmark mark="table_5394-5498"></bookmark><p><thead><tr><th>Item</th><th align="right">Value</th></tr></thead><tbody><tr><td>Computer</td><td align="right">$1600</td></tr><tr><td>Phone</td><td align="right">$12</td></tr><tr><td>Pipe</td><td align="right">$1</td></tr></tbody></p>
 
   
     
@@ -248,68 +252,68 @@
       
     
   
-<bookmark mark="table_5474-5733"></bookmark><p><thead><tr><th align="left">Left-Aligned</th><th align="center">Center Aligned</th><th align="right">Right Aligned</th></tr></thead><tbody><tr><td align="left">col 3 is</td><td align="center">some wordy text</td><td align="right">$1600</td></tr><tr><td align="left">col 2 is</td><td align="center">centered</td><td align="right">$12</td></tr><tr><td align="left">zebra stripes</td><td align="center">are neat</td><td align="right">$1</td></tr></tbody></p>
-<bookmark mark="hr_5735-5738"></bookmark><p></p>
-<bookmark mark="h4_5740-5758"></bookmark><p>HTML entities</p>
-<bookmark mark="p_5760-5889"></bookmark><p>
+<bookmark mark="table_5500-5759"></bookmark><p><thead><tr><th align="left">Left-Aligned</th><th align="center">Center Aligned</th><th align="right">Right Aligned</th></tr></thead><tbody><tr><td align="left">col 3 is</td><td align="center">some wordy text</td><td align="right">$1600</td></tr><tr><td align="left">col 2 is</td><td align="center">centered</td><td align="right">$12</td></tr><tr><td align="left">zebra stripes</td><td align="center">are neat</td><td align="right">$1</td></tr></tbody></p>
+<bookmark mark="hr_5761-5764"></bookmark><p></p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">HTML entities</emphasis>
+<bookmark mark="p_5786-5915"></bookmark><p>
   © &#x26; ¨ ™ ¡ £
   &#x26; &#x3C; > ¥ € ® ± ¶ § ¦ ¯ « ·
 </p>
-<bookmark mark="p_5891-5949"></bookmark><p>X² Y³ ¾ ¼ × ÷ »</p>
-<bookmark mark="p_5951-5974"></bookmark><p>18ºC " '</p>
-<bookmark mark="h2_5976-6010"></bookmark><p>Escaping for Special Characters</p>
-<bookmark mark="p_6012-6033"></bookmark><p>*literal asterisks*</p>
-<bookmark mark="h2_6035-6053"></bookmark><p>Markdown extras</p>
-<bookmark mark="h3_6055-6072"></bookmark><p>GFM task list</p>
-<bookmark mark="ul_6074-6291"></bookmark><p>
-  <bookmark mark="li_6074-6095"></bookmark><p> GFM task list 1</p>
-  <bookmark mark="li_6096-6117"></bookmark><p> GFM task list 2</p>
-  <bookmark mark="li_6118-6217"></bookmark><p> GFM task list 3
-    <bookmark mark="ul_6142-6217"></bookmark><p>
-      <bookmark mark="li_6142-6165"></bookmark><p> GFM task list 3-1</p>
-      <bookmark mark="li_6168-6191"></bookmark><p> GFM task list 3-2</p>
-      <bookmark mark="li_6194-6217"></bookmark><p> GFM task list 3-3</p>
+<bookmark mark="p_5917-5975"></bookmark><p>X² Y³ ¾ ¼ × ÷ »</p>
+<bookmark mark="p_5977-6000"></bookmark><p>18ºC " '</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">Escaping for Special Characters</emphasis>
+<bookmark mark="p_6038-6059"></bookmark><p>*literal asterisks*</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="5">Markdown extras</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">GFM task list</emphasis>
+<bookmark mark="ul_6100-6317"></bookmark><p>
+  <bookmark mark="li_6100-6121"></bookmark><p> GFM task list 1</p>
+  <bookmark mark="li_6122-6143"></bookmark><p> GFM task list 2</p>
+  <bookmark mark="li_6144-6243"></bookmark><p> GFM task list 3
+    <bookmark mark="ul_6168-6243"></bookmark><p>
+      <bookmark mark="li_6168-6191"></bookmark><p> GFM task list 3-1</p>
+      <bookmark mark="li_6194-6217"></bookmark><p> GFM task list 3-2</p>
+      <bookmark mark="li_6220-6243"></bookmark><p> GFM task list 3-3</p>
     </p>
   </p>
-  <bookmark mark="li_6218-6291"></bookmark><p> GFM task list 4
-    <bookmark mark="ul_6242-6291"></bookmark><p>
-      <bookmark mark="li_6242-6265"></bookmark><p> GFM task list 4-1</p>
-      <bookmark mark="li_6268-6291"></bookmark><p> GFM task list 4-2</p>
-    </p>
-  </p>
-</p>
-<bookmark mark="h3_6293-6317"></bookmark><p>Emoji mixed :smiley:</p>
-<bookmark mark="blockquote_6319-6339"></bookmark><p>
-  <bookmark mark="p_6321-6339"></bookmark><p>Blockquotes :star:</p>
-</p>
-<bookmark mark="h4_6341-6434"></bookmark><p>GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</p>
-<bookmark mark="ul_6436-6979"></bookmark><p>
-  <bookmark mark="li_6436-6551"></bookmark><p> :smiley: @mentions, :smiley: #refs, <bookmark mark="a_6478-6487"></bookmark><s>links</s>, <bookmark mark="strong_6489-6503"></bookmark><s>formatting</s>, and <s>tags</s> supported :editormd-logo:;</p>
-  <bookmark mark="li_6552-6640"></bookmark><p> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</p>
-  <bookmark mark="li_6641-6693"></bookmark><p> [ ] :smiley: this is a complete item :smiley:;</p>
-  <bookmark mark="li_6694-6762"></bookmark><p> []this is an incomplete item <bookmark mark="a_6729-6743"></bookmark><s>test link</s> :fa-star: @pandao;</p>
-  <bookmark mark="li_6763-6979"></bookmark><p> [ ]this is an incomplete item :fa-star: :fa-gear:;
-    <bookmark mark="ul_6822-6979"></bookmark><p>
-      <bookmark mark="li_6822-6899"></bookmark><p> :smiley: this is an incomplete item <bookmark mark="a_6864-6878"></bookmark><s>test link</s> :fa-star: :fa-gear:;</p>
-      <bookmark mark="li_6902-6979"></bookmark><p> :smiley: this is :fa-star: :fa-gear: an incomplete item <bookmark mark="a_6964-6978"></bookmark><s>test link</s>;</p>
+  <bookmark mark="li_6244-6317"></bookmark><p> GFM task list 4
+    <bookmark mark="ul_6268-6317"></bookmark><p>
+      <bookmark mark="li_6268-6291"></bookmark><p> GFM task list 4-1</p>
+      <bookmark mark="li_6294-6317"></bookmark><p> GFM task list 4-2</p>
     </p>
   </p>
 </p>
-<bookmark mark="h3_6981-6995"></bookmark><p>TeX(LaTeX)</p>
-<bookmark mark="p_6997-7007"></bookmark><p>$$E=mc^2$$</p>
-<bookmark mark="p_7009-7059"></bookmark><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p>
-<bookmark mark="p_7061-7088"></bookmark><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p>
-<bookmark mark="p_7090-7145"></bookmark><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p>
-<bookmark mark="h3_7147-7160"></bookmark><p>FlowChart</p>
-<bookmark mark="pre_7162-7317"></bookmark>
-<bookmark mark="h3_7319-7339"></bookmark><p>Sequence Diagram</p>
-<bookmark mark="pre_7341-7484"></bookmark>
-<bookmark mark="h3_7486-7493"></bookmark><p>End</p>
-<bookmark mark="h3_7496-7508"></bookmark><p>Comments</p><p></p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Emoji mixed :smiley:</emphasis>
+<bookmark mark="blockquote_6345-6365"></bookmark><p>
+  <bookmark mark="p_6347-6365"></bookmark><p>Blockquotes :star:</p>
+</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="3">GFM task lists &#x26; Emoji &#x26; fontAwesome icon emoji &#x26; editormd logo emoji :editormd-logo-5x:</emphasis>
+<bookmark mark="ul_6462-7005"></bookmark><p>
+  <bookmark mark="li_6462-6577"></bookmark><p> :smiley: @mentions, :smiley: #refs, <bookmark mark="a_6504-6513"></bookmark><s>links</s>, <emphasis level="2">formatting</emphasis>, and <s>tags</s> supported :editormd-logo:;</p>
+  <bookmark mark="li_6578-6666"></bookmark><p> list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;</p>
+  <bookmark mark="li_6667-6719"></bookmark><p> [ ] :smiley: this is a complete item :smiley:;</p>
+  <bookmark mark="li_6720-6788"></bookmark><p> []this is an incomplete item <bookmark mark="a_6755-6769"></bookmark><s>test link</s> :fa-star: @pandao;</p>
+  <bookmark mark="li_6789-7005"></bookmark><p> [ ]this is an incomplete item :fa-star: :fa-gear:;
+    <bookmark mark="ul_6848-7005"></bookmark><p>
+      <bookmark mark="li_6848-6925"></bookmark><p> :smiley: this is an incomplete item <bookmark mark="a_6890-6904"></bookmark><s>test link</s> :fa-star: :fa-gear:;</p>
+      <bookmark mark="li_6928-7005"></bookmark><p> :smiley: this is :fa-star: :fa-gear: an incomplete item <bookmark mark="a_6990-7004"></bookmark><s>test link</s>;</p>
+    </p>
+  </p>
+</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">TeX(LaTeX)</emphasis>
+<bookmark mark="p_7023-7033"></bookmark><p>$$E=mc^2$$</p>
+<bookmark mark="p_7035-7085"></bookmark><p>Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。</p>
+<bookmark mark="p_7087-7114"></bookmark><p>$$(\sqrt{3x-1}+(1+x)^2)$$</p>
+<bookmark mark="p_7116-7171"></bookmark><p>$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$</p>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">FlowChart</emphasis>
+<bookmark mark="pre_7188-7343"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Sequence Diagram</emphasis>
+<bookmark mark="pre_7367-7510"></bookmark>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">End</emphasis>
+<emphasis xmlns="http://www.w3.org/1999/xhtml" level="4">Comments</emphasis><p></p>
 <p><s>Strikethrough</s> <s>Strikethrough (when enable html tag decode.)</s>
-<s>Italic</s> <s>Italic</s>
-<s>Emphasis</s> <s>Emphasis</s>
-<s><s>Emphasis Italic</s></s> <s><s>Emphasis Italic</s></s></p>
+<emphasis level="1">Italic</emphasis> <emphasis level="1">Italic</emphasis>
+<emphasis level="2">Emphasis</emphasis> <emphasis level="2">Emphasis</emphasis>
+<emphasis level="2"><emphasis level="1">Emphasis Italic</emphasis></emphasis> <emphasis level="2"><emphasis level="1">Emphasis Italic</emphasis></emphasis></p>
 <p>Superscript: X<s>2</s>，Subscript: O<s>2</s></p>
-<p><s>Abbreviation(link HTML abbr tag)</s></p>
+<p><emphasis level="2">Abbreviation(link HTML abbr tag)</emphasis></p>
 <p>The <s>HTML</s> specification is maintained by the <s>W3C</s>.</p>

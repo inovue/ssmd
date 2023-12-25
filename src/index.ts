@@ -23,6 +23,7 @@ import {
 
 import rehypeRaw from "rehype-raw";
 import { remarkSsml } from "./plugins/remarkSsml.js";
+import { rehypeSsml } from "./plugins/rehypeSsml.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,43 +36,40 @@ const __dirname = path.dirname(__filename);
   } catch (error) {
     console.log(error);
   }
-  const mdString = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
-
+  const markdown = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
 
   const mdast = unified()
     .use(remarkParse)
     .use(remarkDirective)
     .use(remarkGfm)
-    .parse(mdString);
+    .parse(markdown);
   
   const hast = unified()
     .use(remarkSsml)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeFormat)
-    .runSync(mdast);
-
-  const hast2 = unified()
     .use(rehypeAutoUniqueId)
     .use(rehypeCommentExpand)
     .use(rehypeRaw)
-    .runSync(hast);
+    .runSync(mdast);
+
+  const html = unified()
+    .use(rehypeStringify)
+    .stringify(hast);
 
   const xast = unified()
+    .use(rehypeSsml)
     .use(hastToXast)
     .use(xastAddBookmark)
     .use(xastRemoveUnsupportedTags)
     .use(xastReplaceTags)
-    .runSync(hast2);
+    .runSync(hast);
 
   const ssml = unified()
     .use(xastStringify)
     .stringify(xast);
 
-  const htmlString = unified()
-    .use(rehypeStringify)
-    .stringify(hast2);
-
-  fs.writeFileSync(path.resolve(__dirname, "example.html"), htmlString);
+  fs.writeFileSync(path.resolve(__dirname, "example.html"), html);
   fs.writeFileSync(path.resolve(__dirname, "example.ssml"), ssml);
 
 })();
