@@ -11,3 +11,7 @@ export function isInlineTag(tag: string): boolean {
 export function isNeitherTag(tag: string): boolean {
   return !isBlockTag(tag) && !isInlineTag(tag);
 }
+
+export function isHtmlTag(tag: string): boolean {
+  return isBlockTag(tag) || isInlineTag(tag);
+}

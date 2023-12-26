@@ -3,12 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 import {unified} from 'unified';
-//import remark from 'remark'
-import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
-import remarkDirective from 'remark-directive';
-import remarkGfm from "remark-gfm";
 import rehypeFormat from "rehype-format";
 
 import { rehypeCommentExpand } from "./plugins/rehypeCommentExpand.js";
@@ -22,8 +18,8 @@ import {
 } from "./plugins/rehypeSsmlStringify.js";
 
 import rehypeRaw from "rehype-raw";
-import { remarkSsml } from "./plugins/remarkSsml.js";
-import { rehypeSsml } from "./plugins/rehypeSsml.js";
+import transformSsmlFromHast from "./plugins/hast-util-ssml.js";
+import { ssmdParse } from "./plugins/ssmdParse.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -39,14 +35,10 @@ const __dirname = path.dirname(__filename);
   const markdown = fs.readFileSync(path.resolve(__dirname, "example.md")).toString();
 
   const mdast = unified()
-    .use(remarkParse)
-    .use(remarkDirective)
-    .use(remarkGfm)
+    .use(ssmdParse)
     .parse(markdown);
   
   const hast = unified()
-    .use(remarkSsml)
-    .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeFormat)
     .use(rehypeAutoUniqueId)
     .use(rehypeCommentExpand)
@@ -58,7 +50,7 @@ const __dirname = path.dirname(__filename);
     .stringify(hast);
 
   const xast = unified()
-    .use(rehypeSsml)
+    .use(transformSsmlFromHast)
     .use(hastToXast)
     .use(xastAddBookmark)
     .use(xastRemoveUnsupportedTags)
