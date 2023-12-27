@@ -3,7 +3,7 @@ import type { Root, Element } from 'hast';
 import { Plugin } from "unified";
 import { isBlockTag, isInlineTag } from "../utils/checkHtmlTags.js";
 
-export const transformSsmlFromHast:Plugin<void[], Root, Root> = function () {
+export const transSsmlFromHast:Plugin<void[], Root, Root> = function () {
   return (tree) => {
     
     const emphasisTagName = 'emphasis';
@@ -46,4 +46,3 @@ export const transformSsmlFromHast:Plugin<void[], Root, Root> = function () {
   };
 };
 
-export default transformSsmlFromHast;

@@ -2,11 +2,39 @@ import { visit } from 'unist-util-visit';
 import type { Root, Node } from 'mdast';
 import type { ContainerDirective, LeafDirective, TextDirective } from 'mdast-util-directive';
 
+
+export const transSsmlFromMdast = (tree: Root) => {
+  visit(tree, ['containerDirective', 'leafDirective', 'textDirective'], (node: Node) => {
+    if (isContainerDirective(node)) {
+      const containerDirective = node as ContainerDirective;
+      transVoiceDirective(containerDirective);
+      transLangDirective(containerDirective);
+    } else if (isLeafDirective(node)) {
+      const leafDirective = node as LeafDirective;
+      transBreakDirectiveData(leafDirective);
+      transLexiconDirective(leafDirective);
+      transBookmarkDirective(leafDirective);
+      transLangDirective(leafDirective);
+      transSubDirective(leafDirective);
+      transSayasDirective(leafDirective);
+    } else if (isTextDirective(node)) {
+      const textDirective = node as TextDirective;
+      transBreakDirectiveData(textDirective);
+      transBookmarkDirective(textDirective);
+      transLangDirective(textDirective);
+      transSubDirective(textDirective);
+      transSayasDirective(textDirective);
+    }
+  });
+};
+
+
 export const isContainerDirective = (node: Node): boolean => node.type === 'containerDirective';
 export const isLeafDirective = (node: Node): boolean => node.type === 'leafDirective';
 export const isTextDirective = (node: Node): boolean => node.type === 'textDirective';
 
-export const transformVoiceDirective = (directive: ContainerDirective) => {
+
+export const transVoiceDirective = (directive: ContainerDirective) => {
   const voice = directive.attributes?.voice;
   const [name, effect] = (voice || '').split(':');
   if (name) {
@@ -21,7 +49,7 @@ export const transformVoiceDirective = (directive: ContainerDirective) => {
   }
 }
 
-export const transformBreakDirectiveData = (directive: LeafDirective | TextDirective, defaultBreakTime: number = 500) => {
+export const transBreakDirectiveData = (directive: LeafDirective | TextDirective, defaultBreakTime: number = 500) => {
   const time = directive.attributes?.class;
   if (!!Number(time) || time === '.') {
     directive.data = {
@@ -34,7 +62,7 @@ export const transformBreakDirectiveData = (directive: LeafDirective | TextDirec
   }
 }
 
-export const transformLexiconDirective = (directive: LeafDirective) => {
+export const transLexiconDirective = (directive: LeafDirective) => {
   const lexicon = directive.attributes?.uri;
   if (lexicon) {
     directive.data = {
@@ -47,7 +75,7 @@ export const transformLexiconDirective = (directive: LeafDirective) => {
   }
 }
 
-export const transformBookmarkDirective = (directive: LeafDirective | TextDirective) => {
+export const transBookmarkDirective = (directive: LeafDirective | TextDirective) => {
   const bookmark = directive.attributes?.id;
   if (bookmark) {
     directive.data = {
@@ -60,7 +88,7 @@ export const transformBookmarkDirective = (directive: LeafDirective | TextDirect
   }
 }
 
-export const transformLangDirective = (directive: ContainerDirective | LeafDirective | TextDirective) => {
+export const transLangDirective = (directive: ContainerDirective | LeafDirective | TextDirective) => {
   const lang = directive.attributes?.lang;
   if (lang) {
     directive.data = {
@@ -73,7 +101,7 @@ export const transformLangDirective = (directive: ContainerDirective | LeafDirec
   }
 }
 
-export const transformSubDirective = (directive: LeafDirective | TextDirective) => {
+export const transSubDirective = (directive: LeafDirective | TextDirective) => {
   const sub = directive.attributes?.sub;
   if (sub) {
     directive.data = {
@@ -86,7 +114,7 @@ export const transformSubDirective = (directive: LeafDirective | TextDirective) 
   }
 }
 
-export const transformSayasDirective = (directive: LeafDirective | TextDirective) => {
+export const transSayasDirective = (directive: LeafDirective | TextDirective) => {
   const sayas = directive.attributes?.as;
   const [interpretAs, format, detail] = (sayas || '').split(':');
   if (interpretAs) {
@@ -102,31 +130,3 @@ export const transformSayasDirective = (directive: LeafDirective | TextDirective
   }
 }
 
-
-export const transformSsmlFromMdast = (tree: Root) => {
-  visit(tree, ['containerDirective', 'leafDirective', 'textDirective'], (node: Node) => {
-    if (isContainerDirective(node)) {
-      const containerDirective = node as ContainerDirective;
-      transformVoiceDirective(containerDirective);
-      transformLangDirective(containerDirective);
-    } else if (isLeafDirective(node)) {
-      const leafDirective = node as LeafDirective;
-      transformBreakDirectiveData(leafDirective);
-      transformLexiconDirective(leafDirective);
-      transformBookmarkDirective(leafDirective);
-      transformLangDirective(leafDirective);
-      transformSubDirective(leafDirective);
-      transformSayasDirective(leafDirective);
-    } else if (isTextDirective(node)) {
-      const textDirective = node as TextDirective;
-      transformBreakDirectiveData(textDirective);
-      transformBookmarkDirective(textDirective);
-      transformLangDirective(textDirective);
-      transformSubDirective(textDirective);
-      transformSayasDirective(textDirective);
-    }
-  });
-};
-
-
-export default transformSsmlFromMdast;

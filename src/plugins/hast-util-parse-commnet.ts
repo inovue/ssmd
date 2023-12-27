@@ -7,10 +7,10 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import { Plugin } from "unified"
 
-export const rehypeCommentExpand:Plugin<void[], Root, Root> = function () {
+export const parseComment:Plugin<void[], Root, Root> = function () {
   return (tree) => {
     visit(tree, 'raw', (node, index, parent) => {
-      const comment = extractHtmlComment(node.value);
+      const comment = extractComment(node.value);
 
       if (comment && parent && typeof index === 'number') {
         // commentValueのマークダウンをmdastに変換
@@ -30,7 +30,7 @@ export const rehypeCommentExpand:Plugin<void[], Root, Root> = function () {
   }
 }
 
-export function extractHtmlComment(str:string):string|null {
+export function extractComment(str:string):string|null {
   const regexp = /<!--\s*(?<commentValue>.*)\s*-->/s;
   const result = regexp.exec(str);
   if (result && result.groups && result.groups.commentValue) {

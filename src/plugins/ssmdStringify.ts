@@ -26,8 +26,6 @@ export const xastRemoveUnsupportedTags:Plugin<void[], XastRoot, XastRoot> = func
 }
 
 
-
-
 // Compilers
 export const xastStringify: Plugin = function(this:Processor) {
   const compiler:Compiler<XastRoot, string> = (tree) => {

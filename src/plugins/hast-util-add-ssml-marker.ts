@@ -3,12 +3,13 @@ import { Root, Element } from 'hast';
 import { Plugin } from "unified"
 import { isHtmlTag } from '../utils/checkHtmlTags.js';
 
-export const setUniqueId: Plugin<void[], Root, Root> = function () {
+
+export const addSsmlMarker: Plugin<void[], Root, Root> = function () {
   return (tree) => {
     visit(tree, 'element', (element, _, parent) => {
       if (isHtmlTag(element.tagName)) {
         element.properties.id = generateElementId(element);
-        setBookmark(element, _, parent);
+        insertBookmarkElement(element, _, parent);
       }
     });
   };
@@ -25,7 +26,7 @@ export const generateElementId = (node: Element) => {
 }
 
 
-export const setBookmark = (element: Element, index?: number, parent?: Root|Element) => {
+export const insertBookmarkElement = (element: Element, index?: number, parent?: Root|Element) => {
   const bookmarkTagName = 'bookmark';
   if (element.tagName !== bookmarkTagName && element.properties.id) {
     const bookmarkElement: Element = {

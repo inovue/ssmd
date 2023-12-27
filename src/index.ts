@@ -7,7 +7,7 @@ import remarkRehype from "remark-rehype";
 import rehypeStringify from "rehype-stringify";
 import rehypeFormat from "rehype-format";
 
-import { rehypeCommentExpand } from "./plugins/rehypeCommentExpand.js";
+import { rehypeCommentExpand } from "./plugins/hast-util-parse-commnet.js";
 import { rehypeAutoUniqueId } from "./plugins/rehypeAutoUniqueId.js";
 import { 
   hastToXast, 
@@ -18,7 +18,7 @@ import {
 } from "./plugins/rehypeSsmlStringify.js";
 
 import rehypeRaw from "rehype-raw";
-import transformSsmlFromHast from "./plugins/hast-util-ssml.js";
+import transformSsmlFromHast from "./plugins/hast-util-trans-ssml.js";
 import { ssmdParse } from "./plugins/ssmdParse.js";
 
 const __filename = fileURLToPath(import.meta.url);
